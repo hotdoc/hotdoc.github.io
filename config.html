@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>core.config.Config</title>
+
+<link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
+<link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
+<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+<link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
+<link rel="stylesheet" href="assets/css/prism.css" type="text/css">
+
+<script src="assets/js/mustache.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/typeahead.jquery.min.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/compare-versions.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/tag_filtering.js"></script>
+<script src="assets/js/language_switching.js"></script>
+<script src="assets/js/navigation.js"></script>
+
+
+<script src="assets/js/lines_around_headings.js"></script>
+
+<script src="assets/js/prism-core.js"></script>
+<script src="assets/js/prism-autoloader.js"></script>
+<script src="assets/js/prism_autoloader_path_override.js"></script>
+<script src="assets/js/trie.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy" data-offset="70">
+
+<nav class="navbar navbar-fixed-top navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a id="home-link" class="hotdoc-navbar-brand">
+				
+<img src="assets/images/home.svg" alt="Home" id="home">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar-wrapper">
+			<ul class="nav navbar-nav" id="menu">
+							</ul>
+			<form action="" class="navbar-form navbar-right">
+                               <div class="form-group has-feedback">
+                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                               </div>
+                       </form>
+
+		</div>
+	</div>
+</nav>
+
+<main class="page-row page-row-expanded">
+<div data-extension="python-extension" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc-0.X" data-hotdoc-ref="config.html" class="page_container" id="page-wrapper">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2" id="sidenav-column">
+	<div class="panel panel-collapse" id="sidenav" data-hotdoc-role="navigation">
+		<div id="sitenav-wrapper" class="mCustomScrollbar" data-mcs-theme="minimal">
+			<div class="sidenav-main-panel-body">
+				<div id="site-navigation">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-md-9 col-xl-8">
+	<div id="main">
+				
+<div id="page-description" data-hotdoc-source="config.py">
+<h1 id="coreconfigconfig">core.config.Config</h1>
+</div>
+
+
+<h2 class="symbol_section" id="Classes">Classes</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config">
+			
+		
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.__init__">
+		<h3 id="coreconfigconfig1">
+	<span><code>core.config.Config</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config (command_line_args, conf_file, defaults)</pre>
+
+<p>Constructor for <em>ConfigParser</em>.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>command_line_args:</code></em></i>
+		</p>
+	</td>
+		<td><p>a list of command line arguments
+that will override the keys defined in <em>conf_file</em>,
+or <em>None</em></p>
+</td>
+<td>
+list
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>conf_file:</code></em></i>
+		</p>
+	</td>
+		<td><p>the path to the configuration file. If
+<em>None</em>, <em>ConfigParser</em> will look for a file named
+<em>hotdoc.json</em> in the current directory.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>defaults:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<div class="class_details">
+	<p>Helper class to help deal with common extension dependencies.</p>
+<p>This class has two goals:</p>
+<ul class="simple">
+<li>Help extensions retrieve sources and indexes, with
+support for filters and wildcards.</li>
+<li>Provide a generic way to list all the dependencies
+for a given hotdoc project, without needing to
+import extensions and query them individually, as it
+is costly and we want to make this operation as
+transparent as possible for the build system.</li>
+</ul>
+<p>This implies that extensions with external dependencies
+need to follow several semantic conventions for the arguments
+they expose:</p>
+<ul class="simple">
+<li>When an extension exposes an index, it needs to expose
+an argument named <em>&lt;prefix&gt;index</em> to retrieve it.</li>
+<li>When an extension accepts a list of sources, it needs
+to expose two arguments, one named <em>&lt;prefix&gt;sources</em>,
+and the other named <em>&lt;prefix&gt;source_filters</em>. With this
+done, <em>ConfigParser</em> will automatically provide wildcard
+expansion and filtering.</li>
+</ul>
+<p>Note that <a class="reference external" href="extension.html#core.extension.Extension">core.extension.Extension</a> provides helper methods
+to register index and sources options, this documentation should
+only be interesting for 'advanced' use cases.</p>
+
+</div>
+
+</div>
+
+
+<h2 class="symbol_section" id="Functions">Functions</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.get_markdown_files">
+		<h3 id="coreconfigconfigget_markdown_files">
+	<span><code>core.config.Config.get_markdown_files</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.get_markdown_files (dir_)</pre>
+
+<p>Get all the markdown files in a folder, recursively</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters1">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>dir_:</code></em></i>
+		</p>
+	</td>
+		<td><p>a toplevel folder to walk.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.get_invoke_dir">
+		<h3 id="coreconfigconfigget_invoke_dir">
+	<span><code>core.config.Config.get_invoke_dir</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.get_invoke_dir ()</pre>
+
+<p>Banana banana</p>
+
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.get">
+		<h3 id="coreconfigconfigget">
+	<span><code>core.config.Config.get</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.get (key, default)</pre>
+
+<p>Get the value for <em>key</em>.</p>
+<p>Gives priority to command-line overrides.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters2">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>key:</code></em></i>
+		</p>
+	</td>
+		<td><p>the key to get the value for.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>default:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+	<div class="multi_return_value_container">
+			<h4 id="returns">Returns:</h4>
+		<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<tbody>
+						<tr>
+	<td>
+		<p>
+				</p>
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		object
+	</td>
+	</tr>
+
+					</tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.get_index">
+		<h3 id="coreconfigconfigget_index">
+	<span><code>core.config.Config.get_index</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.get_index (prefix)</pre>
+
+<p>Retrieve the absolute path to an index, according to
+<em>prefix</em>.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters3">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>prefix:</code></em></i>
+		</p>
+	</td>
+		<td><p>the desired prefix or <em>None</em>.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+	<div class="multi_return_value_container">
+			<h4 id="returns1">Returns:</h4>
+		<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<tbody>
+						<tr>
+	<td>
+		<p>
+				</p>
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+	</td>
+	</tr>
+
+					</tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.get_path">
+		<h3 id="coreconfigconfigget_path">
+	<span><code>core.config.Config.get_path</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.get_path (key, rel_to_cwd, rel_to_conf)</pre>
+
+<p>Retrieve a path from the config, resolving it against
+the invokation directory or the configuration file directory,
+depending on whether it was passed through the command-line
+or the configuration file.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters4">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>key:</code></em></i>
+		</p>
+	</td>
+		<td><p>the key to lookup the path with</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>rel_to_cwd:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>rel_to_conf:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+	<div class="multi_return_value_container">
+			<h4 id="returns2">Returns:</h4>
+		<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<tbody>
+						<tr>
+	<td>
+		<p>
+				</p>
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+	</td>
+	</tr>
+
+					</tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.get_paths">
+		<h3 id="coreconfigconfigget_paths">
+	<span><code>core.config.Config.get_paths</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.get_paths (key)</pre>
+
+<p>Same as <em>ConfigParser.get_path</em> for a list of paths.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters5">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>key:</code></em></i>
+		</p>
+	</td>
+		<td><p>the key to lookup the paths with</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+	<div class="multi_return_value_container">
+			<h4 id="returns3">Returns:</h4>
+		<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<tbody>
+						<tr>
+	<td>
+		<p>
+				</p>
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		list
+	</td>
+	</tr>
+
+					</tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.get_sources">
+		<h3 id="coreconfigconfigget_sources">
+	<span><code>core.config.Config.get_sources</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.get_sources (prefix)</pre>
+
+<p>Retrieve a set of absolute paths to sources, according to <em>prefix</em></p>
+<p><em>ConfigParser</em> will perform wildcard expansion and
+filtering.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters6">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>prefix:</code></em></i>
+		</p>
+	</td>
+		<td><p>the desired prefix.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+	<div class="multi_return_value_container">
+			<h4 id="returns4">Returns:</h4>
+		<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<tbody>
+						<tr>
+	<td>
+		<p>
+				</p>
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		utils.utils.OrderedSet
+	</td>
+	</tr>
+
+					</tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.get_dependencies">
+		<h3 id="coreconfigconfigget_dependencies">
+	<span><code>core.config.Config.get_dependencies</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.get_dependencies ()</pre>
+
+<p>Retrieve the set of all dependencies for a given configuration.</p>
+
+
+	<div class="multi_return_value_container">
+			<h4 id="returns5">Returns:</h4>
+		<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<tbody>
+						<tr>
+	<td>
+		<p>
+				</p>
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		utils.utils.OrderedSet
+	</td>
+	</tr>
+
+					</tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.dump">
+		<h3 id="coreconfigconfigdump">
+	<span><code>core.config.Config.dump</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.config.Config.dump (conf_file)</pre>
+
+<p>Dump the possibly updated config to a file.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters7">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>conf_file:</code></em></i>
+		</p>
+	</td>
+		<td><p>the destination, or None to overwrite the
+existing configuration.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<h2 class="symbol_section" id="Properties">Properties</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.config.Config.conf_file">
+		<h3 class="method" id="coreconfigconfigconf_file">
+	<span><code>core.config.Config.conf_file</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.config.Config.conf_file” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+        <div id="subpages"></div>
+	</div>
+	<div id="search_results">
+		<p>The results of the search are</p>
+	</div>
+</div>
+<div class="hidden-xs col-xl-2">
+</div>
+	</div>
+</div>
+</main>
+
+
+<footer class="page-row">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2"></div>
+		<div class="col-sm-12 col-md-9 col-xl-8">
+						
+		</div>
+		<div class="hidden-xs col-xl-2"></div>
+	</div>
+</div>
+</footer>
+
+</body>
+
+<script src="assets/js/navbar_offset_scroller.js"></script>
+</html>

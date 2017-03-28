@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>The markdown pages</title>
+
+<link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
+<link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
+<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+<link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
+<link rel="stylesheet" href="assets/css/prism.css" type="text/css">
+
+<script src="assets/js/mustache.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/typeahead.jquery.min.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/compare-versions.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/tag_filtering.js"></script>
+<script src="assets/js/language_switching.js"></script>
+<script src="assets/js/navigation.js"></script>
+
+
+<script src="assets/js/lines_around_headings.js"></script>
+
+<script src="assets/js/prism-core.js"></script>
+<script src="assets/js/prism-autoloader.js"></script>
+<script src="assets/js/prism_autoloader_path_override.js"></script>
+<script src="assets/js/trie.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy" data-offset="70">
+
+<nav class="navbar navbar-fixed-top navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a id="home-link" class="hotdoc-navbar-brand">
+				
+<img src="assets/images/home.svg" alt="Home" id="home">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar-wrapper">
+			<ul class="nav navbar-nav" id="menu">
+							</ul>
+			<form action="" class="navbar-form navbar-right">
+                               <div class="form-group has-feedback">
+                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                               </div>
+                       </form>
+
+		</div>
+	</div>
+</nav>
+
+<main class="page-row page-row-expanded">
+<div data-extension="core" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc-0.X" data-hotdoc-ref="the-markdown-pages.html" class="page_container" id="page-wrapper">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2" id="sidenav-column">
+	<div class="panel panel-collapse" id="sidenav" data-hotdoc-role="navigation">
+		<div id="sitenav-wrapper" class="mCustomScrollbar" data-mcs-theme="minimal">
+			<div class="sidenav-main-panel-body">
+				<div id="site-navigation">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-md-9 col-xl-8">
+	<div id="main">
+				
+<div id="page-description" data-hotdoc-source="the-markdown-pages.markdown">
+<h1 id="the-markdown-pages">The markdown pages</h1>
+<p>The standalone markdown files (usually located in <code>markdown_files</code>) serve
+two main purposes:</p>
+<ul>
+<li>
+<p>Actually holding documentation: the contents in all markdown files will
+get rendered following the <a href="http://commonmark.org/">CommonMark</a> specification nearly as is,
+with the exception of the <a href="syntax-extensions.html">syntax extensions</a>.</p>
+</li>
+<li>
+<p>Holding metadata in <a href="http://yaml.org/">yaml</a> headers.</p>
+</li>
+</ul>
+<h2 id="page-creation-tutorial">Page creation tutorial</h2>
+<blockquote>
+<p>The final output of this tutorial can be visited
+<a href="https://people.collabora.com/%7Emeh/simplest_example/index.html">here</a>,
+and the final project is hosted <a href="https://github.com/hotdoc/simplest_example">there</a>,
+it contains a Makefile defining the <code>all</code> and <code>clean</code> targets.</p>
+</blockquote>
+<p>The following instructions will help explaining a few concepts through example.</p>
+<h3 id="set-up-a-basic-page-tree">Set up a basic page tree</h3>
+<p>Set up a test folder</p>
+<pre><code class="language-shell">mkdir -p ~/hotdoc_layout_test/markdown_files
+cd ~/hotdoc_layout_test
+</code></pre>
+<blockquote>
+<p>Note: the directory for the markdown files doesn't need to be named <code>markdown_files</code>, and we don't actually need these files to be located in a separate subdirectory, but the former will hopefully become a convention and the latter is a recommended practice.</p>
+</blockquote>
+<p>Now open <code>markdown_files/subpage.markdown</code> with the editor of your choice, put the following contents inside it and save it:</p>
+<pre><code class="language-markdown">---
+short-description: Just a subpage
+...
+
+# My subpage
+
+Using *some* **random** `CommonMark` [syntax](http://spec.commonmark.org/)
+
+You may want to go back to [the index](index.markdown) now?
+</code></pre>
+<p>Then open <code>markdown_files/index.markdown</code> with the editor of your choice, put the following contents inside it and save it:</p>
+<pre><code class="language-markdown"># My project
+</code></pre>
+<p>Finally open <code>sitemap.txt</code>, input the following contents and save it:</p>
+<pre><code class="language-txt">index.markdown
+	subpage.markdown
+</code></pre>
+<p>You can now run hotdoc with</p>
+<pre><code class="language-shell">hotdoc --index markdown_files/index.markdown --output built_doc --sitemap sitemap.txt run
+</code></pre>
+<p>from the <code>~/hotdoc_layout_test</code> folder, and check the output with <code>xdg-open built_doc/html/index.html</code>.</p>
+<p>See the <a href="the-configuration-file.html">configuration file section</a> if you'd like to convert this command-line to a configuration file.</p>
+<p>A few things are to be noted here:</p>
+<ul>
+<li>
+<p>Hotdoc will by default look for subpages in the folder where the provided
+index is located, so only the basenames need to be input in the sitemap.
+Additional folders in which to look for documentation pages (but also code
+samples) can be provided to hotdoc with the <code>include-paths</code>
+configuration option.</p>
+</li>
+<li>
+<p>Links to pages in the doc tree are updated at format-time, in our example
+<code>index.markdown</code> will be updated to <code>index.html</code> when outputting html.</p>
+</li>
+<li>
+<p>The metadata in the yaml headers is not directly visible in the pages
+they document, but it is used when presenting subpages. In our case,
+we did not provide any <code>title</code> metadata, so the title picked for
+our subpage is the first heading found in the page. Try defining
+the <code>title</code> metadata in the yaml header if that's your thing :)</p>
+</li>
+</ul>
+<p>If all you want hotdoc to do is help you in generating a multi-page website
+from a set of markdown files, then you can stop reading this page, throw an
+eye at <a href="the-configuration-file.html">this page</a> and
+<a href="syntax-extensions.html">this one too</a> though, can't hurt.</p>
+<p>If however you also want to use one or more hotdoc extensions to parse source
+code files and document the symbols that they contain, then keep on reading.</p>
+<h3 id="assign-subtrees-to-language-extensions">Assign sub-trees to language extensions</h3>
+<p>When hotdoc parses markdown sources, it attributes them an "extension-name". This name allows using language-specific formatters at format-time, amongst other things that extensions can customize. Of course an extension can choose to not provide a specific formatter, in which case the default formatter will be used.</p>
+<blockquote>
+<p>Note: this is (currently) the case for the C extension, which means
+that you can technically skip the rest of this section if C is your use
+case, as the default formatter will format symbols as C symbols.</p>
+</blockquote>
+<p>The current approach for letting hotdoc know that a page and its subpages
+should be handled by a given extension is to create a separate "sub-index"
+file, use a "well-known-name" placeholder in the sitemap instead of the raw
+filename, and finally pass the raw filename to the chosen extension
+through the <code>*extension-prefix*-index</code> configuration option.</p>
+<p>For example we could rework our previous example as such:</p>
+<p>Open <code>markdown_files/python_index.markdown</code> with the editor of your choice, put the following contents inside it and save it:</p>
+<pre><code class="language-markdown">---
+short-description: Just an API
+...
+
+# Python API reference
+
+This page, and all its (potential) subpages, will be formatted with the
+PythonHtmlFormatter, which is a subclass of the default HtmlFormatter.
+</code></pre>
+<p>Update <code>sitemap.txt</code> to:</p>
+<pre><code class="language-txt">index.markdown
+	subpage.markdown
+	python-index
+</code></pre>
+<p>Finally run hotdoc this way:</p>
+<pre><code class="language-shell">hotdoc --index markdown_files/index.markdown --output built_doc --python-index python_index.markdown --sitemap sitemap.txt run -vv
+</code></pre>
+<blockquote>
+<p>Note that the two pages you created earlier are not reparsed, nor
+reformatted. This only presents a very theoretical advantage in our case,
+but this can come in quite handy when managing hundreds of pages.</p>
+</blockquote>
+<p>Provided the <a href="https://github.com/hotdoc/hotdoc_python_extension">python extension</a> is installed in the current environment,
+the <code>python_index.markdown</code> page will be rendered with the
+<code>PythonHtmlFormatter</code>, this is trivially verifiable with
+<code>grep "data-extension" built_doc/html/python_index.html</code>, which should show :
+<code>&lt;div data-extension="python-extension" class="page_container" id="page-wrapper"&gt;</code></p>
+<blockquote>
+<p>Note: In that example, the "well-known-name" is <code>python-index</code> and the
+command-line argument to let the extension know about the sub-index filename
+is <code>python-index</code> too. The path for the sub-index will be treated
+as relative to the main index.</p>
+</blockquote>
+<h3 id="add-symbols-to-pages">Add symbols to pages</h3>
+<p>The next step will show how to include formatted source code symbols'
+documentation in the output.</p>
+<p>The current approach to letting users define where to place the documentation
+for a given set of symbols is to have them explicitly listed in
+the page's metadata. The following steps will detail the process.</p>
+<p>First open <code>module_to_document.py</code> with the editor of your choice, put the following contents inside it and save it:</p>
+<pre><code class="language-python">def function_to_document(foo, bar):
+    """A function to document
+
+    This is just a simple addition function.
+
+    Args:
+        foo: int, The first operand of the addition
+        bar: int, The other operand of the addition
+    Returns:
+        int: The addition of `foo` and `bar`
+    """
+    return foo + bar
+</code></pre>
+<p>Then, edit <code>sitemap.txt</code> to:</p>
+<pre><code class="language-txt">index.markdown
+	subpage.markdown
+	python-index
+		explicit_list_of_symbols_in_python_module.markdown
+</code></pre>
+<blockquote>
+<p>This syntax doesn't expose any new concept, we're just defining a subpage
+in the standard way.</p>
+</blockquote>
+<p>Finally, open <code>markdown_files/explicit_list_of_symbols_in_python_module.markdown</code>
+with the editor of your choice, put the following contents inside it and save it:</p>
+<pre><code class="language-markdown">---
+short-description: Just a python module
+symbols:
+    - module_to_document.function_to_document
+...
+
+# My module
+
+This is a module to demonstrate documenting source code symbols.
+</code></pre>
+<p>You can now invoke hotdoc with</p>
+<pre><code class="language-shell">hotdoc --index markdown_files/index.markdown --output built_doc --python-index python_index.markdown --python-sources module_to_document.py --sitemap sitemap.txt run
+</code></pre>
+<p>, and check the result with <code>xdg-open built_doc/html/python_index.html</code>.</p>
+<h3 id="or-let-extensions-generate-subtrees-and-symbol-lists">Or let extensions generate sub-trees and symbol lists</h3>
+<p>This approach of explicitly listing each symbol presents the advantage of
+letting users precisely define the page in which symbols will be documented,
+as well as their relative ordering, however if they do not need this level
+of control, all extensions can generate the symbol's lists and sub-index
+themselves.</p>
+<p>To have the extension generate these files, all you need to do is:</p>
+<pre><code class="language-shell">rm markdown_files/python_index.markdown
+rm markdown_files/markdown_files/explicit_list_of_symbols_in_python_module.markdown
+</code></pre>
+<p>and edit the sitemap back to:</p>
+<pre><code class="language-txt">index.markdown
+	subpage.markdown
+	python-index
+</code></pre>
+<p>Then run hotdoc without specifying a <code>python-index</code>:</p>
+<pre><code class="language-shell">rm -rf hotdoc-private* &amp;&amp; hotdoc --index markdown_files/index.markdown --output built_doc --python-sources module_to_document.py --python-smart-index --sitemap sitemap.txt run
+</code></pre>
+<blockquote>
+<p>Removing the <code>hotdoc-private</code> folder ensures we rebuild from scratch,
+just to prove our point.</p>
+</blockquote>
+<blockquote>
+<p>Also note the --python-smart-index argument.</p>
+</blockquote>
+<p>The result for that simple project should be strictly the same, you can find generated "intermediary" markdown pages in <code>hotdoc-private/generated</code></p>
+<blockquote>
+<p>If you cloned <a href="https://github.com/hotdoc/simplest_example">https://github.com/hotdoc/simplest_example</a> , you can checkout the "generated_symbol_list" branch to see this approach instead.</p>
+</blockquote>
+<h3 id="advanced-layout">Advanced layout</h3>
+<p>The two approaches listed above can be mixed, this will soon<sup>(tm)</sup> be documented.</p>
+
+</div>
+
+
+        <div id="subpages"></div>
+	</div>
+	<div id="search_results">
+		<p>The results of the search are</p>
+	</div>
+</div>
+<div class="hidden-xs col-xl-2">
+</div>
+	</div>
+</div>
+</main>
+
+
+<footer class="page-row">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2"></div>
+		<div class="col-sm-12 col-md-9 col-xl-8">
+						
+		</div>
+		<div class="hidden-xs col-xl-2"></div>
+	</div>
+</div>
+</footer>
+
+</body>
+
+<script src="assets/js/navbar_offset_scroller.js"></script>
+</html>

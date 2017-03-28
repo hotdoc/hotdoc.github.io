@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>core.filesystem.ChangeTracker</title>
+
+<link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
+<link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
+<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+<link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
+<link rel="stylesheet" href="assets/css/prism.css" type="text/css">
+
+<script src="assets/js/mustache.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/typeahead.jquery.min.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/compare-versions.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/tag_filtering.js"></script>
+<script src="assets/js/language_switching.js"></script>
+<script src="assets/js/navigation.js"></script>
+
+
+<script src="assets/js/lines_around_headings.js"></script>
+
+<script src="assets/js/prism-core.js"></script>
+<script src="assets/js/prism-autoloader.js"></script>
+<script src="assets/js/prism_autoloader_path_override.js"></script>
+<script src="assets/js/trie.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy" data-offset="70">
+
+<nav class="navbar navbar-fixed-top navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a id="home-link" class="hotdoc-navbar-brand">
+				
+<img src="assets/images/home.svg" alt="Home" id="home">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar-wrapper">
+			<ul class="nav navbar-nav" id="menu">
+							</ul>
+			<form action="" class="navbar-form navbar-right">
+                               <div class="form-group has-feedback">
+                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                               </div>
+                       </form>
+
+		</div>
+	</div>
+</nav>
+
+<main class="page-row page-row-expanded">
+<div data-extension="python-extension" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc-0.X" data-hotdoc-ref="filesystem.html" class="page_container" id="page-wrapper">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2" id="sidenav-column">
+	<div class="panel panel-collapse" id="sidenav" data-hotdoc-role="navigation">
+		<div id="sitenav-wrapper" class="mCustomScrollbar" data-mcs-theme="minimal">
+			<div class="sidenav-main-panel-body">
+				<div id="site-navigation">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-md-9 col-xl-8">
+	<div id="main">
+				
+<div id="page-description" data-hotdoc-source="filesystem.py">
+<h1 id="corefilesystemchangetracker">core.filesystem.ChangeTracker</h1>
+</div>
+
+
+<h2 class="symbol_section" id="Classes">Classes</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.filesystem.ChangeTracker">
+			
+		
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.filesystem.ChangeTracker.__init__">
+		<h3 id="corefilesystemchangetracker1">
+	<span><code>core.filesystem.ChangeTracker</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.filesystem.ChangeTracker ()</pre>
+
+
+
+
+
+
+</div>
+
+
+<div class="class_details">
+	<p>This class should only be instantiated and used through
+the main <em>Project</em> instance.</p>
+<p>It provides with modification time tracking and some
+other utilities.</p>
+
+</div>
+
+</div>
+
+
+<h2 class="symbol_section" id="Functions">Functions</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.filesystem.ChangeTracker.get_stale_files">
+		<h3 id="corefilesystemchangetrackerget_stale_files">
+	<span><code>core.filesystem.ChangeTracker.get_stale_files</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.filesystem.ChangeTracker.get_stale_files (all_files, fileset_name)</pre>
+
+<p>Banana banana</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>all_files:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>fileset_name:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.filesystem.ChangeTracker.add_hard_dependency">
+		<h3 id="corefilesystemchangetrackeradd_hard_dependency">
+	<span><code>core.filesystem.ChangeTracker.add_hard_dependency</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.filesystem.ChangeTracker.add_hard_dependency (filename)</pre>
+
+<p>Banana banana</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters1">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>filename:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.filesystem.ChangeTracker.hard_dependencies_are_stale">
+		<h3 id="corefilesystemchangetrackerhard_dependencies_are_stale">
+	<span><code>core.filesystem.ChangeTracker.hard_dependencies_are_stale</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.filesystem.ChangeTracker.hard_dependencies_are_stale ()</pre>
+
+<p>Banana banana</p>
+
+
+
+
+
+</div>
+
+
+<h2 class="symbol_section" id="Properties">Properties</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.filesystem.ChangeTracker.exts_mtimes">
+		<h3 class="method" id="corefilesystemchangetrackerexts_mtimes">
+	<span><code>core.filesystem.ChangeTracker.exts_mtimes</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.filesystem.ChangeTracker.exts_mtimes” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.filesystem.ChangeTracker.hard_deps_mtimes">
+		<h3 class="method" id="corefilesystemchangetrackerhard_deps_mtimes">
+	<span><code>core.filesystem.ChangeTracker.hard_deps_mtimes</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.filesystem.ChangeTracker.hard_deps_mtimes” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.filesystem.ChangeTracker.mtimes">
+		<h3 class="method" id="corefilesystemchangetrackermtimes">
+	<span><code>core.filesystem.ChangeTracker.mtimes</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.filesystem.ChangeTracker.mtimes” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+        <div id="subpages"></div>
+	</div>
+	<div id="search_results">
+		<p>The results of the search are</p>
+	</div>
+</div>
+<div class="hidden-xs col-xl-2">
+</div>
+	</div>
+</div>
+</main>
+
+
+<footer class="page-row">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2"></div>
+		<div class="col-sm-12 col-md-9 col-xl-8">
+						
+		</div>
+		<div class="hidden-xs col-xl-2"></div>
+	</div>
+</div>
+</footer>
+
+</body>
+
+<script src="assets/js/navbar_offset_scroller.js"></script>
+</html>

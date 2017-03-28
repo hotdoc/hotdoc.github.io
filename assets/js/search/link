@@ -1,0 +1,1 @@
+urls_downloaded_cb({"token": "link", "urls": ["links.html#core.links.LinkResolver.add_link", "links.html#core.links.LinkResolver.upsert_link", "formatter.html#core.formatter.FormatterBadLinkException", "formatter.html#core.formatter.Formatter._format_link", "syntax-extensions.html#page-description"]});

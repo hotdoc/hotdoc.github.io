@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>core.extension.ExtDependency</title>
+
+<link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
+<link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
+<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+<link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
+<link rel="stylesheet" href="assets/css/prism.css" type="text/css">
+
+<script src="assets/js/mustache.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/typeahead.jquery.min.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/compare-versions.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/tag_filtering.js"></script>
+<script src="assets/js/language_switching.js"></script>
+<script src="assets/js/navigation.js"></script>
+
+
+<script src="assets/js/lines_around_headings.js"></script>
+
+<script src="assets/js/prism-core.js"></script>
+<script src="assets/js/prism-autoloader.js"></script>
+<script src="assets/js/prism_autoloader_path_override.js"></script>
+<script src="assets/js/trie.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy" data-offset="70">
+
+<nav class="navbar navbar-fixed-top navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a id="home-link" class="hotdoc-navbar-brand">
+				
+<img src="assets/images/home.svg" alt="Home" id="home">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar-wrapper">
+			<ul class="nav navbar-nav" id="menu">
+							</ul>
+			<form action="" class="navbar-form navbar-right">
+                               <div class="form-group has-feedback">
+                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                               </div>
+                       </form>
+
+		</div>
+	</div>
+</nav>
+
+<main class="page-row page-row-expanded">
+<div data-extension="python-extension" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc-0.X" data-hotdoc-ref="extension.html" class="page_container" id="page-wrapper">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2" id="sidenav-column">
+	<div class="panel panel-collapse" id="sidenav" data-hotdoc-role="navigation">
+		<div id="sitenav-wrapper" class="mCustomScrollbar" data-mcs-theme="minimal">
+			<div class="sidenav-main-panel-body">
+				<div id="site-navigation">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-md-9 col-xl-8">
+	<div id="main">
+				
+<div id="page-description" data-hotdoc-source="extension.py">
+<h1 id="coreextensionextdependency">core.extension.ExtDependency</h1>
+</div>
+
+
+<h2 class="symbol_section" id="Classes">Classes</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.ExtDependency">
+			
+		
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.ExtDependency.__init__">
+		<h3 id="coreextensionextdependency1">
+	<span><code>core.extension.ExtDependency</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.ExtDependency (dependency_name, is_upstream)</pre>
+
+<p>Constructor for <a class="reference external" href="extension.html#core.extension.Extension">core.extension.Extension</a>.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>dependency_name:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <a class="reference external" href="extension.html#core.extension.ExtDependency.dependency_name">core.extension.ExtDependency.dependency_name</a></p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>is_upstream:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <a class="reference external" href="extension.html#core.extension.ExtDependency.is_upstream">core.extension.ExtDependency.is_upstream</a></p>
+</td>
+<td>
+<a title="bool" href="https://docs.python.org/2.7/library/functions.html#bool">bool</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<div class="class_details">
+	<p>Represents a dependency on another extension.</p>
+<p>If not satisfied, the extension will not be instantiated.</p>
+<p>See the <a class="reference external" href="extension.html#core.extension.Extension.get_dependencies">core.extension.Extension.get_dependencies</a> static method documentation
+for more information.</p>
+
+</div>
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension">
+			
+		
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.__init__">
+		<h3 id="coreextensionextension">
+	<span><code>core.extension.Extension</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension (app, project)</pre>
+
+<p>Constructor for <a class="reference external" href="extension.html#core.extension.Extension">core.extension.Extension</a>.</p>
+<p>This should never get called directly.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters1">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>app:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>project:</code></em></i>
+		</p>
+	</td>
+		<td><p>The <a class="reference external" href="project.html#core.project.Project">core.project.Project</a> instance which documentation
+is being generated.</p>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<div class="class_details">
+	<p>All extensions should inherit from this base class</p>
+
+</div>
+
+</div>
+
+
+<h2 class="symbol_section" id="Functions">Functions</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.warn">
+		<h3 id="coreextensionextensionwarn">
+	<span><code>core.extension.Extension.warn</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.warn (code, message)</pre>
+
+<p>Shortcut function for <em>loggable.warn</em></p>
+
+	<div class="parameter_container">
+		<h4 id="parameters2">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>code:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>utils.loggable.warn</em></p>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>message:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>utils.loggable.warn</em></p>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.error">
+		<h3 id="coreextensionextensionerror">
+	<span><code>core.extension.Extension.error</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.error (code, message)</pre>
+
+<p>Shortcut function for <em>utils.loggable.error</em></p>
+
+	<div class="parameter_container">
+		<h4 id="parameters3">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>code:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>utils.loggable.error</em></p>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>message:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>utils.loggable.error</em></p>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.debug">
+		<h3 id="coreextensionextensiondebug">
+	<span><code>core.extension.Extension.debug</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.debug (message, domain)</pre>
+
+<p>Shortcut function for <em>utils.loggable.debug</em></p>
+
+	<div class="parameter_container">
+		<h4 id="parameters4">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>message:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>utils.loggable.debug</em></p>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>domain:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>utils.loggable.debug</em></p>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.info">
+		<h3 id="coreextensionextensioninfo">
+	<span><code>core.extension.Extension.info</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.info (message, domain)</pre>
+
+<p>Shortcut function for <em>utils.loggable.info</em></p>
+
+	<div class="parameter_container">
+		<h4 id="parameters5">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>message:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>utils.loggable.info</em></p>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>domain:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>utils.loggable.info</em></p>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.reset">
+		<h3 id="coreextensionextensionreset">
+	<span><code>core.extension.Extension.reset</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.reset ()</pre>
+
+<p>This function is only useful for testing purposes, at least
+for now.</p>
+
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.setup">
+		<h3 id="coreextensionextensionsetup">
+	<span><code>core.extension.Extension.setup</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.setup ()</pre>
+
+<p>Extension subclasses should implement this to scan whatever
+source files they have to scan, and connect to the various
+signals they have to connect to.</p>
+<p>Note that this will be called <em>after</em> the <a class="reference external" href="tree.html#core.tree.Tree">core.tree.Tree</a>
+of this instance's <a class="reference external" href="extension.html#core.extension.Extension.project">core.extension.Extension.project</a> has been fully
+constructed, but before its <a class="reference external" href="tree.html#core.tree.Tree.resolve_symbols">core.tree.Tree.resolve_symbols</a>
+method has been called.</p>
+
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.get_stale_files">
+		<h3 id="coreextensionextensionget_stale_files">
+	<span><code>core.extension.Extension.get_stale_files</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.get_stale_files (all_files, prefix)</pre>
+
+<p>Shortcut function to <em>change_tracker.ChangeTracker.get_stale_files</em>
+for the tracker of this instance's <a class="reference external" href="extension.html#core.extension.Extension.project">core.extension.Extension.project</a></p>
+
+	<div class="parameter_container">
+		<h4 id="parameters6">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>all_files:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <em>change_tracker.ChangeTracker.get_stale_files</em></p>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>prefix:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.get_dependencies">
+		<h3 id="coreextensionextensionget_dependencies">
+	<span><code>core.extension.Extension.get_dependencies</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.get_dependencies ()</pre>
+
+<p>Override this to return the list of extensions this extension
+depends on if needed.</p>
+
+
+	<div class="multi_return_value_container">
+			<h4 id="returns">Returns:</h4>
+		<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<tbody>
+						<tr>
+	<td>
+		<p>
+				</p>
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		list
+	</td>
+	</tr>
+
+					</tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.parse_toplevel_config">
+		<h3 id="coreextensionextensionparse_toplevel_config">
+	<span><code>core.extension.Extension.parse_toplevel_config</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.parse_toplevel_config (config)</pre>
+
+<p>Parses and make use of the toplevel configuration.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters7">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>config:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.parse_config">
+		<h3 id="coreextensionextensionparse_config">
+	<span><code>core.extension.Extension.parse_config</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.parse_config (config)</pre>
+
+
+	<div class="parameter_container">
+		<h4 id="parameters8">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>config:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.add_arguments">
+		<h3 id="coreextensionextensionadd_arguments">
+	<span><code>core.extension.Extension.add_arguments</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.add_arguments ()</pre>
+
+<p>Subclasses may implement this method to add their own arguments to
+the hotdoc binary.</p>
+<p>In this function, you should add an argument group to the passed-in
+parser, corresponding to your extension.
+You can then add arguments to that argument group.</p>
+<p>Example:</p>
+<pre class="literal-block">
+@staticmethod
+def add_arguments(parser):
+    group = parser.add_argument_group('Chilidoc',
+        'Delicious Hotdoc extension')
+    Chilidoc.add_sources_argument(group)
+    group.add_argument('--chili-spicy', action='store_true',
+        help='Whether to add extra pepper')
+</pre>
+
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.add_index_argument">
+		<h3 id="coreextensionextensionadd_index_argument">
+	<span><code>core.extension.Extension.add_index_argument</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.add_index_argument (group, prefix, smart)</pre>
+
+<p>Subclasses may call this to add an index argument.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters9">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>group:</code></em></i>
+		</p>
+	</td>
+		<td><p>the extension argument group</p>
+</td>
+<td>
+arparse.ArgumentGroup
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>prefix:</code></em></i>
+		</p>
+	</td>
+		<td><p>arguments have to be namespaced</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>smart:</code></em></i>
+		</p>
+	</td>
+		<td><p>whether smart index generation should be exposed
+for this extension</p>
+</td>
+<td>
+<a title="bool" href="https://docs.python.org/2.7/library/functions.html#bool">bool</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.add_sources_argument">
+		<h3 id="coreextensionextensionadd_sources_argument">
+	<span><code>core.extension.Extension.add_sources_argument</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.add_sources_argument (group, allow_filters, prefix)</pre>
+
+<p>Subclasses may call this to add sources and source_filters arguments.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters10">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>group:</code></em></i>
+		</p>
+	</td>
+		<td><p>the extension argument group</p>
+</td>
+<td>
+arparse.ArgumentGroup
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>allow_filters:</code></em></i>
+		</p>
+	</td>
+		<td><p>Whether the extension wishes to expose a
+source_filters argument.</p>
+</td>
+<td>
+<a title="bool" href="https://docs.python.org/2.7/library/functions.html#bool">bool</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>prefix:</code></em></i>
+		</p>
+	</td>
+		<td><p>arguments have to be namespaced.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.add_path_argument">
+		<h3 id="coreextensionextensionadd_path_argument">
+	<span><code>core.extension.Extension.add_path_argument</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.add_path_argument (group, argname, dest, help_)</pre>
+
+<p>Subclasses may call this to expose a path argument.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters11">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>group:</code></em></i>
+		</p>
+	</td>
+		<td><p>the extension argument group</p>
+</td>
+<td>
+arparse.ArgumentGroup
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>argname:</code></em></i>
+		</p>
+	</td>
+		<td><p>the name of the argument, will be namespaced.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>dest:</code></em></i>
+		</p>
+	</td>
+		<td><p>similar to the <em>dest</em> argument of
+<em>argparse.ArgumentParser.add_argument</em>, will be namespaced.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>help_:</code></em></i>
+		</p>
+	</td>
+		<td><p>similar to the <em>help</em> argument of
+<em>argparse.ArgumentParser.add_argument</em>.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.add_paths_argument">
+		<h3 id="coreextensionextensionadd_paths_argument">
+	<span><code>core.extension.Extension.add_paths_argument</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.add_paths_argument (group, argname, dest, help_)</pre>
+
+<p>Subclasses may call this to expose a paths argument.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters12">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>group:</code></em></i>
+		</p>
+	</td>
+		<td><p>the extension argument group</p>
+</td>
+<td>
+arparse.ArgumentGroup
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>argname:</code></em></i>
+		</p>
+	</td>
+		<td><p>the name of the argument, will be namespaced.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>dest:</code></em></i>
+		</p>
+	</td>
+		<td><p>similar to the <em>dest</em> argument of
+<em>argparse.ArgumentParser.add_argument</em>, will be namespaced.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>help_:</code></em></i>
+		</p>
+	</td>
+		<td><p>similar to the <em>help</em> argument of
+<em>argparse.ArgumentParser.add_argument</em>.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.get_or_create_symbol">
+		<h3 id="coreextensionextensionget_or_create_symbol">
+	<span><code>core.extension.Extension.get_or_create_symbol</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.get_or_create_symbol (args, kwargs)</pre>
+
+<p>Extensions that discover and create instances of <a class="reference external" href="symbols.html#core.symbols.Symbol">core.symbols.Symbol</a>
+should do this through this method, as it will keep an index
+of these which can be used when generating a "naive index".</p>
+<p>See <a class="reference external" href="database.html#core.database.Database.get_or_create_symbol">core.database.Database.get_or_create_symbol</a> for more
+information.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters13">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>args:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <a class="reference external" href="database.html#core.database.Database.get_or_create_symbol">core.database.Database.get_or_create_symbol</a></p>
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>kwargs:</code></em></i>
+		</p>
+	</td>
+		<td><p>see <a class="reference external" href="database.html#core.database.Database.get_or_create_symbol">core.database.Database.get_or_create_symbol</a></p>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+	<div class="multi_return_value_container">
+			<h4 id="returns1">Returns:</h4>
+		<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<tbody>
+						<tr>
+	<td>
+		<p>
+				</p>
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		symbols.Symbol
+	</td>
+	</tr>
+
+					</tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension._make_formatter">
+		<h3 id="coreextensionextension_make_formatter">
+	<span><code>core.extension.Extension._make_formatter</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension._make_formatter ()</pre>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension._resolve_placeholder">
+		<h3 id="coreextensionextension_resolve_placeholder">
+	<span><code>core.extension.Extension._resolve_placeholder</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension._resolve_placeholder (tree, name, include_paths)</pre>
+
+
+	<div class="parameter_container">
+		<h4 id="parameters14">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>tree:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>name:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>include_paths:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension._get_smart_index_title">
+		<h3 id="coreextensionextension_get_smart_index_title">
+	<span><code>core.extension.Extension._get_smart_index_title</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension._get_smart_index_title ()</pre>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension._get_all_sources">
+		<h3 id="coreextensionextension_get_all_sources">
+	<span><code>core.extension.Extension._get_all_sources</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension._get_all_sources ()</pre>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension._get_smart_key">
+		<h3 id="coreextensionextension_get_smart_key">
+	<span><code>core.extension.Extension._get_smart_key</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension._get_smart_key (symbol)</pre>
+
+
+	<div class="parameter_container">
+		<h4 id="parameters15">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>symbol:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.format_page">
+		<h3 id="coreextensionextensionformat_page">
+	<span><code>core.extension.Extension.format_page</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.format_page (page, link_resolver, output)</pre>
+
+<p>Called by <em>project.Project.format_page</em>, to leave full control
+to extensions over the formatting of the pages they are
+responsible of.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters16">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>page:</code></em></i>
+		</p>
+	</td>
+		<td><p>the page to format.</p>
+</td>
+<td>
+tree.Page
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>link_resolver:</code></em></i>
+		</p>
+	</td>
+		<td><p>object responsible
+for resolving links potentially mentioned in <em>page</em></p>
+</td>
+<td>
+links.LinkResolver
+</td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>output:</code></em></i>
+		</p>
+	</td>
+		<td><p>path to the output directory.</p>
+</td>
+<td>
+<a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a>
+</td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.get_subpages_sorted">
+		<h3 id="coreextensionextensionget_subpages_sorted">
+	<span><code>core.extension.Extension.get_subpages_sorted</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.extension.Extension.get_subpages_sorted (pages, page)</pre>
+
+<p>Get @page subpages sorted appropriately.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters17">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>pages:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>page:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<h2 class="symbol_section" id="Properties">Properties</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.ExtDependency.dependency_name">
+		<h3 class="method" id="coreextensionextdependencydependency_name">
+	<span><code>core.extension.ExtDependency.dependency_name</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.ExtDependency.dependency_name” <span class="type"><a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a></span>
+</pre>
+
+<p>the name of the extension depended on.</p>
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.ExtDependency.is_upstream">
+		<h3 class="method" id="coreextensionextdependencyis_upstream">
+	<span><code>core.extension.ExtDependency.is_upstream</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.ExtDependency.is_upstream” <span class="type"><a title="bool" href="https://docs.python.org/2.7/library/functions.html#bool">bool</a></span>
+</pre>
+
+<p>if set to true hotdoc will arrange for
+the extension depended on to have its <a class="reference external" href="extension.html#core.extension.Extension.setup">core.extension.Extension.setup</a>
+implementation called first. Circular dependencies will
+generate an error.</p>
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.project">
+		<h3 class="method" id="coreextensionextensionproject">
+	<span><code>core.extension.Extension.project</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension.project” <span class="type">project.Project</span>
+</pre>
+
+<p>the Project instance which documentation
+hotdoc is working on.</p>
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.app">
+		<h3 class="method" id="coreextensionextensionapp">
+	<span><code>core.extension.Extension.app</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension.app” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.sources">
+		<h3 class="method" id="coreextensionextensionsources">
+	<span><code>core.extension.Extension.sources</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension.sources” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.index">
+		<h3 class="method" id="coreextensionextensionindex">
+	<span><code>core.extension.Extension.index</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension.index” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.smart_index">
+		<h3 class="method" id="coreextensionextensionsmart_index">
+	<span><code>core.extension.Extension.smart_index</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension.smart_index” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension._created_symbols">
+		<h3 class="method" id="coreextensionextension_created_symbols">
+	<span><code>core.extension.Extension._created_symbols</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension._created_symbols” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.formatter">
+		<h3 class="method" id="coreextensionextensionformatter">
+	<span><code>core.extension.Extension.formatter</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension.formatter” <span class="type">formatter.Formatter</span>
+</pre>
+
+<p>may be subclassed.</p>
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.extension_name">
+		<h3 class="method" id="coreextensionextensionextension_name">
+	<span><code>core.extension.Extension.extension_name</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension.extension_name” <span class="type"><a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a></span>
+</pre>
+
+<p>the unique name of this extension, should
+be overriden and namespaced appropriately.</p>
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.extension.Extension.argument_prefix">
+		<h3 class="method" id="coreextensionextensionargument_prefix">
+	<span><code>core.extension.Extension.argument_prefix</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.extension.Extension.argument_prefix” <span class="type"><a title="str" href="https://docs.python.org/2.7/library/functions.html#str">str</a></span>
+</pre>
+
+<p>Short name of this extension, used as a prefix
+to add to automatically generated command-line arguments.</p>
+
+
+
+</div>
+
+
+        <div id="subpages"></div>
+	</div>
+	<div id="search_results">
+		<p>The results of the search are</p>
+	</div>
+</div>
+<div class="hidden-xs col-xl-2">
+</div>
+	</div>
+</div>
+</main>
+
+
+<footer class="page-row">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2"></div>
+		<div class="col-sm-12 col-md-9 col-xl-8">
+						
+		</div>
+		<div class="hidden-xs col-xl-2"></div>
+	</div>
+</div>
+</footer>
+
+</body>
+
+<script src="assets/js/navbar_offset_scroller.js"></script>
+</html>

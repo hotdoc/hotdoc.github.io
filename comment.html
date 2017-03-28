@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>core.comment.TagValidator</title>
+
+<link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
+<link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
+<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+<link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
+<link rel="stylesheet" href="assets/css/prism.css" type="text/css">
+
+<script src="assets/js/mustache.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/typeahead.jquery.min.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/compare-versions.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/tag_filtering.js"></script>
+<script src="assets/js/language_switching.js"></script>
+<script src="assets/js/navigation.js"></script>
+
+
+<script src="assets/js/lines_around_headings.js"></script>
+
+<script src="assets/js/prism-core.js"></script>
+<script src="assets/js/prism-autoloader.js"></script>
+<script src="assets/js/prism_autoloader_path_override.js"></script>
+<script src="assets/js/trie.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy" data-offset="70">
+
+<nav class="navbar navbar-fixed-top navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a id="home-link" class="hotdoc-navbar-brand">
+				
+<img src="assets/images/home.svg" alt="Home" id="home">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar-wrapper">
+			<ul class="nav navbar-nav" id="menu">
+							</ul>
+			<form action="" class="navbar-form navbar-right">
+                               <div class="form-group has-feedback">
+                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                               </div>
+                       </form>
+
+		</div>
+	</div>
+</nav>
+
+<main class="page-row page-row-expanded">
+<div data-extension="python-extension" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc-0.X" data-hotdoc-ref="comment.html" class="page_container" id="page-wrapper">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2" id="sidenav-column">
+	<div class="panel panel-collapse" id="sidenav" data-hotdoc-role="navigation">
+		<div id="sitenav-wrapper" class="mCustomScrollbar" data-mcs-theme="minimal">
+			<div class="sidenav-main-panel-body">
+				<div id="site-navigation">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-md-9 col-xl-8">
+	<div id="main">
+				
+<div id="page-description" data-hotdoc-source="comment.py">
+<h1 id="corecommenttagvalidator">core.comment.TagValidator</h1>
+</div>
+
+
+<h2 class="symbol_section" id="Classes">Classes</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.TagValidator">
+			
+		
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.TagValidator.__init__">
+		<h3 id="corecommenttagvalidator1">
+	<span><code>core.comment.TagValidator</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.comment.TagValidator (name)</pre>
+
+
+	<div class="parameter_container">
+		<h4 id="parameters">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>name:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<div class="class_details">
+	<p>Tag validators may be created by extensions that wish
+to add custom tags. (Returns, Since, etc...)</p>
+
+</div>
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment">
+			
+		
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.__init__">
+		<h3 id="corecommentcomment">
+	<span><code>core.comment.Comment</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.comment.Comment (name, title, params, filename, lineno, endlineno, annotations, description, short_description, tags, raw_comment, topics)</pre>
+
+
+	<div class="parameter_container">
+		<h4 id="parameters1">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>name:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>title:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>params:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>filename:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>lineno:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>endlineno:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>annotations:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>description:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>short_description:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>tags:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>raw_comment:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>topics:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<div class="class_details">
+	<p>Represents a piece of markup text, optionally tied to a particular symbol.
+Code-parsing extensions should add instances of this class to
+Database.</p>
+
+</div>
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Annotation">
+			
+		
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Annotation.__init__">
+		<h3 id="corecommentannotation">
+	<span><code>core.comment.Annotation</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.comment.Annotation (name, argument)</pre>
+
+
+	<div class="parameter_container">
+		<h4 id="parameters2">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>name:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>argument:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<div class="class_details">
+	<p>An annotation is extra information that may or may not be displayed
+to the end-user, depending on the context.
+For example gobject annotations will be displayed for the
+C language, but hidden in python, and interpreted instead.</p>
+
+</div>
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Tag">
+			
+		
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Tag.__init__">
+		<h3 id="corecommenttag">
+	<span><code>core.comment.Tag</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.comment.Tag (name, description, value, annotations)</pre>
+
+
+	<div class="parameter_container">
+		<h4 id="parameters3">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>name:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>description:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>value:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+									<tr>
+		<td>
+		<p>
+		<i><em><code>annotations:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<div class="class_details">
+	<p>A tag is extra information that shall always be displayed
+to the end-user, independent of the context.
+For example, since tags or return tags.</p>
+
+</div>
+
+</div>
+
+
+<h2 class="symbol_section" id="Functions">Functions</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.TagValidator.validate">
+		<h3 id="corecommenttagvalidatorvalidate">
+	<span><code>core.comment.TagValidator.validate</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.comment.TagValidator.validate (value)</pre>
+
+<p>Subclasses should implement this to validate the
+value of a tag.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters4">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>value:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.comment_from_tag">
+		<h3 id="corecommentcomment_from_tag">
+	<span><code>core.comment.comment_from_tag</code></span>
+</h3>
+
+		<pre class="programlisting">
+core.comment.comment_from_tag (tag)</pre>
+
+<p>Convenience function to create a full-fledged comment for a
+given tag, for example it is convenient to assign a Comment
+to a ReturnValueSymbol.</p>
+
+	<div class="parameter_container">
+		<h4 id="parameters5">Parameters</h4>
+		<table>
+			<tbody>
+									<tr>
+		<td>
+		<p>
+		<i><em><code>tag:</code></em></i>
+		</p>
+	</td>
+		<td></td>
+</tr>
+
+							</tbody>
+		</table>
+	</div>
+
+
+
+
+</div>
+
+
+<h2 class="symbol_section" id="Properties">Properties</h2>
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.TagValidator.name">
+		<h3 class="method" id="corecommenttagvalidatorname">
+	<span><code>core.comment.TagValidator.name</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.TagValidator.name” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.name">
+		<h3 class="method" id="corecommentcommentname">
+	<span><code>core.comment.Comment.name</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.name” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.title">
+		<h3 class="method" id="corecommentcommenttitle">
+	<span><code>core.comment.Comment.title</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.title” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.params">
+		<h3 class="method" id="corecommentcommentparams">
+	<span><code>core.comment.Comment.params</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.params” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.topics">
+		<h3 class="method" id="corecommentcommenttopics">
+	<span><code>core.comment.Comment.topics</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.topics” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.filename">
+		<h3 class="method" id="corecommentcommentfilename">
+	<span><code>core.comment.Comment.filename</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.filename” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.lineno">
+		<h3 class="method" id="corecommentcommentlineno">
+	<span><code>core.comment.Comment.lineno</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.lineno” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.endlineno">
+		<h3 class="method" id="corecommentcommentendlineno">
+	<span><code>core.comment.Comment.endlineno</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.endlineno” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.line_offset">
+		<h3 class="method" id="corecommentcommentline_offset">
+	<span><code>core.comment.Comment.line_offset</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.line_offset” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.col_offset">
+		<h3 class="method" id="corecommentcommentcol_offset">
+	<span><code>core.comment.Comment.col_offset</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.col_offset” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.initial_col_offset">
+		<h3 class="method" id="corecommentcommentinitial_col_offset">
+	<span><code>core.comment.Comment.initial_col_offset</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.initial_col_offset” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.annotations">
+		<h3 class="method" id="corecommentcommentannotations">
+	<span><code>core.comment.Comment.annotations</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.annotations” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.description">
+		<h3 class="method" id="corecommentcommentdescription">
+	<span><code>core.comment.Comment.description</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.description” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.short_description">
+		<h3 class="method" id="corecommentcommentshort_description">
+	<span><code>core.comment.Comment.short_description</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.short_description” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.extension_attrs">
+		<h3 class="method" id="corecommentcommentextension_attrs">
+	<span><code>core.comment.Comment.extension_attrs</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.extension_attrs” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.tags">
+		<h3 class="method" id="corecommentcommenttags">
+	<span><code>core.comment.Comment.tags</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.tags” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Comment.raw_comment">
+		<h3 class="method" id="corecommentcommentraw_comment">
+	<span><code>core.comment.Comment.raw_comment</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Comment.raw_comment” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Annotation.name">
+		<h3 class="method" id="corecommentannotationname">
+	<span><code>core.comment.Annotation.name</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Annotation.name” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Annotation.argument">
+		<h3 class="method" id="corecommentannotationargument">
+	<span><code>core.comment.Annotation.argument</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Annotation.argument” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Tag.name">
+		<h3 class="method" id="corecommenttagname">
+	<span><code>core.comment.Tag.name</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Tag.name” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Tag.description">
+		<h3 class="method" id="corecommenttagdescription">
+	<span><code>core.comment.Tag.description</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Tag.description” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Tag.value">
+		<h3 class="method" id="corecommenttagvalue">
+	<span><code>core.comment.Tag.value</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Tag.value” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+
+<div class="base_symbol_container" data-hotdoc-tags="" id="core.comment.Tag.annotations">
+		<h3 class="method" id="corecommenttagannotations">
+	<span><code>core.comment.Tag.annotations</code></span>
+</h3>
+
+		<pre class="property_signature">
+“core.comment.Tag.annotations” <span class="type"></span>
+</pre>
+
+
+
+
+</div>
+
+
+        <div id="subpages"></div>
+	</div>
+	<div id="search_results">
+		<p>The results of the search are</p>
+	</div>
+</div>
+<div class="hidden-xs col-xl-2">
+</div>
+	</div>
+</div>
+</main>
+
+
+<footer class="page-row">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2"></div>
+		<div class="col-sm-12 col-md-9 col-xl-8">
+						
+		</div>
+		<div class="hidden-xs col-xl-2"></div>
+	</div>
+</div>
+</footer>
+
+</body>
+
+<script src="assets/js/navbar_offset_scroller.js"></script>
+</html>

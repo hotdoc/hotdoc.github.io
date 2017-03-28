@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Installing</title>
+
+<link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
+<link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
+<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+<link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
+<link rel="stylesheet" href="assets/css/prism.css" type="text/css">
+
+<script src="assets/js/mustache.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/typeahead.jquery.min.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/compare-versions.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/tag_filtering.js"></script>
+<script src="assets/js/language_switching.js"></script>
+<script src="assets/js/navigation.js"></script>
+
+
+<script src="assets/js/lines_around_headings.js"></script>
+
+<script src="assets/js/prism-core.js"></script>
+<script src="assets/js/prism-autoloader.js"></script>
+<script src="assets/js/prism_autoloader_path_override.js"></script>
+<script src="assets/js/trie.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy" data-offset="70">
+
+<nav class="navbar navbar-fixed-top navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a id="home-link" class="hotdoc-navbar-brand">
+				
+<img src="assets/images/home.svg" alt="Home" id="home">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar-wrapper">
+			<ul class="nav navbar-nav" id="menu">
+							</ul>
+			<form action="" class="navbar-form navbar-right">
+                               <div class="form-group has-feedback">
+                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                               </div>
+                       </form>
+
+		</div>
+	</div>
+</nav>
+
+<main class="page-row page-row-expanded">
+<div data-extension="core" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc-0.X" data-hotdoc-ref="installing.html" class="page_container" id="page-wrapper">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2" id="sidenav-column">
+	<div class="panel panel-collapse" id="sidenav" data-hotdoc-role="navigation">
+		<div id="sitenav-wrapper" class="mCustomScrollbar" data-mcs-theme="minimal">
+			<div class="sidenav-main-panel-body">
+				<div id="site-navigation">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-md-9 col-xl-8">
+	<div id="main">
+				
+<div id="page-description" data-hotdoc-source="installing.markdown">
+<h1 id="installing">Installing</h1>
+<h2 id="systemwide-dependencies">System-wide dependencies</h2>
+<h3 id="lxml">lxml</h3>
+<p>Hotdoc also uses lxml, which depends on libxml2 and libxslt.</p>
+<h3 id="cmake">cmake</h3>
+<p>For now, hotdoc bundles its own version of <a href="https://github.com/jgm/cmark">libcmark</a> as a submodule, and builds it using cmake, which thus needs to be installed on the system.</p>
+<h3 id="commandline-install">Command-line install</h3>
+<p>On Fedora you can install all these dependencies with:</p>
+<pre><code>dnf install python-devel libxml2-devel libxslt-devel cmake libyaml-devel
+</code></pre>
+<p>And on ubuntu / debian:</p>
+<pre><code>apt-get install python-dev libxml2-dev libxslt1-dev cmake libyaml-dev
+</code></pre>
+<p>I guess it should be similar on Ubuntu / debian, refer to <a href="https://cmake.org/install/">https://cmake.org/install/</a> for more info.</p>
+<h2 id="creating-a-virtualenv">Creating a virtualenv</h2>
+<p>It is highly recommended to use a virtual env to try out any new python project, and hotdoc is no exception. You can however skip this step if you really do not
+care about installing hotdoc system-wide.</p>
+<blockquote>
+<p>Assuming <a href="https://pip.pypa.io/en/stable/">pip</a> is installed</p>
+</blockquote>
+<pre><code>pip3 install virtualenv
+python -m venv hotdoc_env
+. hotdoc_env/bin/activate
+</code></pre>
+<p>You are now in a virtual environment, to exit it you may call <code>deactivate</code>, to enter it again simply call <code>. hotdoc_env/bin/activate</code> from the directory in which the environment was created.</p>
+<h2 id="hotdoc-itself">Hotdoc itself</h2>
+<p>Three main alternatives are available:</p>
+<ul>
+<li>
+<p>Using pip to get the last released version of hotdoc:</p>
+<pre><code>pip2 install hotdoc
+</code></pre>
+</li>
+<li>
+<p>Installing a "read-only" version from a github clone:</p>
+<pre><code>git clone https://github.com/hotdoc/hotdoc.git
+cd hotdoc
+python3 setup.py install
+</code></pre>
+</li>
+<li>
+<p>Installing an editable version from a github clone:</p>
+<pre><code>git clone https://github.com/hotdoc/hotdoc.git
+cd hotdoc
+pip2 install -e .[dev]
+</code></pre>
+</li>
+</ul>
+<p>Congratulations, you have successfully installed hotdoc! You may now want to check the <a href="https://github.com/hotdoc">list of available extensions</a>.</p>
+
+</div>
+
+
+        <div id="subpages"></div>
+	</div>
+	<div id="search_results">
+		<p>The results of the search are</p>
+	</div>
+</div>
+<div class="hidden-xs col-xl-2">
+</div>
+	</div>
+</div>
+</main>
+
+
+<footer class="page-row">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="hidden-xs hidden-sm col-md-3 col-xl-2"></div>
+		<div class="col-sm-12 col-md-9 col-xl-8">
+						
+		</div>
+		<div class="hidden-xs col-xl-2"></div>
+	</div>
+</div>
+</footer>
+
+</body>
+
+<script src="assets/js/navbar_offset_scroller.js"></script>
+</html>
