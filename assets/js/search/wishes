@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#parameters10"], "token": "wishes"});
+urls_downloaded_cb({"token": "wishes", "urls": ["extension.html#parameters10"]});

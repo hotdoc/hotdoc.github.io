@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "extension.html#coreextensionextensionreset", "fragment": "core.extension.Extension.reset \nThis function is only useful for testing purposes at least for now. \n"});
+fragment_downloaded_cb({"fragment": "core.extension.Extension.reset \nThis function is only useful for testing purposes at least for now. \n", "url": "extension.html#coreextensionextensionreset"});

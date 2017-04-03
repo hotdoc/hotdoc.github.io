@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["config.html#parameters", "porting-guides.html#gtkdoc-porting-guide"], "token": "helper"});
+urls_downloaded_cb({"token": "helper", "urls": ["config.html#parameters", "porting-guides.html#gtkdoc-porting-guide"]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["symbols.html#coresymbolssymbolskip"], "token": "core.symbols.Symbol.skip"});
+urls_downloaded_cb({"token": "core.symbols.Symbol.skip", "urls": ["symbols.html#coresymbolssymbolskip"]});

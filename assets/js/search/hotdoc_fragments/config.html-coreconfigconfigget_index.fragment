@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "config.html#coreconfigconfigget_index", "fragment": "core.config.Config.get_index \nRetrieve the absolute path to an index according to prefix. \n"});
+fragment_downloaded_cb({"fragment": "core.config.Config.get_index \nRetrieve the absolute path to an index according to prefix. \n", "url": "config.html#coreconfigconfigget_index"});

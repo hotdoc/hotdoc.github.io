@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["features.html#simple-yet-powerful-syntax"], "token": "amount"});
+urls_downloaded_cb({"token": "amount", "urls": ["features.html#simple-yet-powerful-syntax"]});

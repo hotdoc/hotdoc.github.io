@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-configuration-file.html#format"], "token": "flat"});
+urls_downloaded_cb({"token": "flat", "urls": ["the-configuration-file.html#format"]});

@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "comment.html#corecommentcommentraw_comment", "fragment": "core.comment.Comment.raw_comment \n"});
+fragment_downloaded_cb({"fragment": "core.comment.Comment.raw_comment \n", "url": "comment.html#corecommentcommentraw_comment"});

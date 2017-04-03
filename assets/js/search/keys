@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["config.html#parameters", "the-configuration-file.html#format"], "token": "keys"});
+urls_downloaded_cb({"token": "keys", "urls": ["config.html#parameters", "the-configuration-file.html#format"]});

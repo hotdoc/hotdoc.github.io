@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "extension.html#core.extension.Extension.get_dependencies", "fragment": "core.extension.Extension.get_dependencies \nOverride this to return the list of extensions this extension depends on if needed. \n"});
+fragment_downloaded_cb({"fragment": "core.extension.Extension.get_dependencies \nOverride this to return the list of extensions this extension depends on if needed. \n", "url": "extension.html#core.extension.Extension.get_dependencies"});

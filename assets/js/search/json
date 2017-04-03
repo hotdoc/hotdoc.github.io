@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-configuration-file.html#format", "setting-up-a-project.html#setting-up-a-project"], "token": "json"});
+urls_downloaded_cb({"token": "json", "urls": ["the-configuration-file.html#format", "setting-up-a-project.html#setting-up-a-project"]});

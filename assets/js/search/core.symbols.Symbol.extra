@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["symbols.html#coresymbolssymbolextra"], "token": "core.symbols.Symbol.extra"});
+urls_downloaded_cb({"token": "core.symbols.Symbol.extra", "urls": ["symbols.html#coresymbolssymbolextra"]});

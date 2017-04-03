@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["config.html#coreconfigconfigget_index"], "token": "core.config.config.get_index"});
+urls_downloaded_cb({"token": "core.config.config.get_index", "urls": ["config.html#coreconfigconfigget_index"]});

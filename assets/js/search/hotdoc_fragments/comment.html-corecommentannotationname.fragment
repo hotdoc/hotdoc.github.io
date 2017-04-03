@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "comment.html#corecommentannotationname", "fragment": "core.comment.Annotation.name \n"});
+fragment_downloaded_cb({"fragment": "core.comment.Annotation.name \n", "url": "comment.html#corecommentannotationname"});

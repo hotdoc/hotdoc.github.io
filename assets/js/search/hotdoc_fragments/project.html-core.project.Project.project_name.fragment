@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "project.html#core.project.Project.project_name", "fragment": "core.project.Project.project_name \n"});
+fragment_downloaded_cb({"fragment": "core.project.Project.project_name \n", "url": "project.html#core.project.Project.project_name"});

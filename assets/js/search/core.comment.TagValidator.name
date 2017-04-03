@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["comment.html#corecommenttagvalidatorname"], "token": "core.comment.TagValidator.name"});
+urls_downloaded_cb({"token": "core.comment.TagValidator.name", "urls": ["comment.html#corecommenttagvalidatorname"]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["syntax-extensions.html#referencing-another-page"], "token": "forbidden"});
+urls_downloaded_cb({"token": "forbidden", "urls": ["syntax-extensions.html#referencing-another-page"]});

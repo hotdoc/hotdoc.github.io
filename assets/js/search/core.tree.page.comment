@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["tree.html#coretreepagecomment"], "token": "core.tree.page.comment"});
+urls_downloaded_cb({"token": "core.tree.page.comment", "urls": ["tree.html#coretreepagecomment"]});

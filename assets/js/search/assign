@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["comment.html#corecommentcomment_from_tag"], "token": "assign"});
+urls_downloaded_cb({"token": "assign", "urls": ["comment.html#corecommentcomment_from_tag"]});

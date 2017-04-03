@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.get_subpages_sorted"], "token": "core.extension.extension.get_subpages_sorted"});
+urls_downloaded_cb({"token": "core.extension.extension.get_subpages_sorted", "urls": ["extension.html#core.extension.Extension.get_subpages_sorted"]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["database.html#coredatabasedatabase1"], "token": "store"});
+urls_downloaded_cb({"token": "store", "urls": ["database.html#coredatabasedatabase1"]});

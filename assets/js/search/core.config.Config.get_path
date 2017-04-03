@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["config.html#coreconfigconfigget_path"], "token": "core.config.Config.get_path"});
+urls_downloaded_cb({"token": "core.config.Config.get_path", "urls": ["config.html#coreconfigconfigget_path"]});

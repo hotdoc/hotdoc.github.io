@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["database.html#coredatabasedatabaseflush"], "token": "core.database.Database.flush"});
+urls_downloaded_cb({"token": "core.database.Database.flush", "urls": ["database.html#coredatabasedatabaseflush"]});

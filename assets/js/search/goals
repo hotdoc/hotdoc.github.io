@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["config.html#parameters"], "token": "goals"});
+urls_downloaded_cb({"token": "goals", "urls": ["config.html#parameters"]});

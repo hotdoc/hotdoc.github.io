@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#coreextensionextensionsetup"], "token": "scan"});
+urls_downloaded_cb({"token": "scan", "urls": ["extension.html#coreextensionextensionsetup"]});

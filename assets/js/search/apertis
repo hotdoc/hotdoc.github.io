@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["users.html#apertis-documentation"], "token": "apertis"});
+urls_downloaded_cb({"token": "apertis", "urls": ["users.html#apertis-documentation"]});

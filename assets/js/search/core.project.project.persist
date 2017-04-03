@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["project.html#coreprojectprojectpersist"], "token": "core.project.project.persist"});
+urls_downloaded_cb({"token": "core.project.project.persist", "urls": ["project.html#coreprojectprojectpersist"]});

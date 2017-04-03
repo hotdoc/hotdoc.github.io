@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["cleaning.html#cleaning"], "token": "hash"});
+urls_downloaded_cb({"token": "hash", "urls": ["cleaning.html#cleaning"]});

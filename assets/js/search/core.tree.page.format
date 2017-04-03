@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["tree.html#coretreepageformat"], "token": "core.tree.page.format"});
+urls_downloaded_cb({"token": "core.tree.page.format", "urls": ["tree.html#coretreepageformat"]});

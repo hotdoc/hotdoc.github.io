@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.argument_prefix"], "token": "short"});
+urls_downloaded_cb({"token": "short", "urls": ["extension.html#core.extension.Extension.argument_prefix"]});

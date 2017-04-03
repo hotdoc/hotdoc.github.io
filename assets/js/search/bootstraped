@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["features.html#api"], "token": "bootstraped"});
+urls_downloaded_cb({"token": "bootstraped", "urls": ["features.html#api"]});

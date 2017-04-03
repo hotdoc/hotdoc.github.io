@@ -31,10 +31,10 @@
 
 <script src="assets/js/lines_around_headings.js"></script>
 
-<script src="assets/js/trie.js"></script>
 <script src="assets/js/prism-core.js"></script>
 <script src="assets/js/prism-autoloader.js"></script>
 <script src="assets/js/prism_autoloader_path_override.js"></script>
+<script src="assets/js/trie.js"></script>
 
 
 </head>
@@ -96,11 +96,11 @@ their json counterpart.</p>
 </code></pre>
 <h2 id="setting-up-a-project-from-scratch">Setting up a project from scratch.</h2>
 <p>This will set up the project in the current directory:</p>
-<pre><code>hotdoc init
+<pre><code>hotdoc init --project-name test --project-version "0.1"
 </code></pre>
 <p>You can use <code>--init-dir</code> to specify a different directory, which will
 be created:</p>
-<pre><code>hotdoc init --init-dir test
+<pre><code>hotdoc init --init-dir test --project-name test --project-version "0.1"
 cd test
 </code></pre>
 <p>Once that's done:</p>

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["config.html#coreconfigconfigget_sources"], "token": "perform"});
+urls_downloaded_cb({"token": "perform", "urls": ["config.html#coreconfigconfigget_sources"]});

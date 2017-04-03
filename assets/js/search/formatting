@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.format_page"], "token": "formatting"});
+urls_downloaded_cb({"token": "formatting", "urls": ["extension.html#core.extension.Extension.format_page"]});

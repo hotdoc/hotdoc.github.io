@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["database.html#core.database.Database.comment_updated_signal"], "token": "core.database.Database.comment_updated_signal"});
+urls_downloaded_cb({"token": "core.database.Database.comment_updated_signal", "urls": ["database.html#core.database.Database.comment_updated_signal"]});
