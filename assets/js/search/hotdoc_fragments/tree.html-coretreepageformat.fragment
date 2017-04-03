@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "core.tree.Page.format \nBanana banana \n", "url": "tree.html#coretreepageformat"});
+fragment_downloaded_cb({"url": "tree.html#coretreepageformat", "fragment": "core.tree.Page.format \nBanana banana \n"});

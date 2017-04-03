@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "Command line install \nOn Fedora you can install all these dependencies with \nAnd on ubuntu debian \nI guess it should be similar on Ubuntu debian refer to https cmake.org install for more info. \n", "url": "installing.html#commandline-install"});
+fragment_downloaded_cb({"url": "installing.html#commandline-install", "fragment": "Command line install \nOn Fedora you can install all these dependencies with \nAnd on ubuntu debian \nWe ll be happy to merge updates to this list if you have successfully built hotdoc on another platform. \n"});

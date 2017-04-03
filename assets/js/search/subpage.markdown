@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-markdown-pages.html#set-up-a-basic-page-tree"], "token": "subpage.markdown"});
+urls_downloaded_cb({"urls": ["the-markdown-pages.html#setting-up-a-basic-page-tree"], "token": "subpage.markdown"});

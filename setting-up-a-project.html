@@ -8,7 +8,6 @@
 <title>Setting up a project</title>
 
 <link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
-<link rel="stylesheet" href="assets/css/bootstrap-toc.min.css">
 <link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
 <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
 
@@ -59,10 +58,10 @@
 		<div class="navbar-collapse collapse" id="navbar-wrapper">
 			<ul class="nav navbar-nav" id="menu">
 							</ul>
-			<form action="" class="navbar-form navbar-right">
+			<form action="" class="navbar-form navbar-right" id="navbar-search-form">
                                <div class="form-group has-feedback">
-                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
-                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                       <input type="text" class="form-control input-sm" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+				       <span class="glyphicon glyphicon-search form-control-feedback" id="search-mgn-glass"></span>
                                </div>
                        </form>
 
@@ -96,14 +95,22 @@ their json counterpart.</p>
 <pre><code class="language-shell">hotdoc help
 </code></pre>
 <h2 id="setting-up-a-project-from-scratch">Setting up a project from scratch.</h2>
-<p>You will first need to create the markdown files that will constitute the
-"skeleton" of your documentation, see the
+<p>This will set up the project in the current directory:</p>
+<pre><code>hotdoc init
+</code></pre>
+<p>You can use <code>--init-dir</code> to specify a different directory, which will
+be created:</p>
+<pre><code>hotdoc init --init-dir test
+cd test
+</code></pre>
+<p>Once that's done:</p>
+<pre><code>hotdoc run
+xdg-open built_doc/html/index.html
+</code></pre>
+<p>Refer to the
 <a href="the-markdown-pages.html#page-creation-tutorial">page creation tutorial</a>
 for more information.</p>
-<p>If you followed this tutorial up to its end you should now know how to
-structure your markdown files together and how to define in which pages
-individual source code symbols should be placed.</p>
-<p>If you need more inspiration, check out the <a href="examples.html">examples section</a></p>
+<p>If you need more inspiration, check out the <a href="users.html">other projects that use hotdoc</a></p>
 
 </div>
 
@@ -115,7 +122,11 @@ individual source code symbols should be placed.</p>
 	</div>
 </div>
 <div class="hidden-xs hidden-sm hidden-md col-lg-2 col-xl-2">
-	<nav id="toc"></nav>
+	<div id="toc-column">
+		<div id="toc-wrapper" class="mCustomScrollbar" data-mcs-theme="dark">
+			<nav id="toc"></nav>
+		</div>
+	</div>
 </div>
 	</div>
 </div>

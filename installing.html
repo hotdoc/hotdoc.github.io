@@ -8,7 +8,6 @@
 <title>Installing</title>
 
 <link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
-<link rel="stylesheet" href="assets/css/bootstrap-toc.min.css">
 <link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
 <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
 
@@ -59,10 +58,10 @@
 		<div class="navbar-collapse collapse" id="navbar-wrapper">
 			<ul class="nav navbar-nav" id="menu">
 							</ul>
-			<form action="" class="navbar-form navbar-right">
+			<form action="" class="navbar-form navbar-right" id="navbar-search-form">
                                <div class="form-group has-feedback">
-                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
-                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                       <input type="text" class="form-control input-sm" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+				       <span class="glyphicon glyphicon-search form-control-feedback" id="search-mgn-glass"></span>
                                </div>
                        </form>
 
@@ -91,9 +90,11 @@
 <h1 id="installing">Installing</h1>
 <h2 id="systemwide-dependencies">System-wide dependencies</h2>
 <h3 id="lxml">lxml</h3>
-<p>Hotdoc also uses lxml, which depends on libxml2 and libxslt.</p>
+<p>Hotdoc uses lxml, which depends on libxml2 and libxslt.</p>
 <h3 id="cmake">cmake</h3>
 <p>For now, hotdoc bundles its own version of <a href="https://github.com/jgm/cmark">libcmark</a> as a submodule, and builds it using cmake, which thus needs to be installed on the system.</p>
+<h3 id="pyyaml">pyyaml</h3>
+<p>Hotdoc uses pyyaml to parse yaml ‘front-matter’ metadata in markdown pages, it depends on libyaml.</p>
 <h3 id="commandline-install">Command-line install</h3>
 <p>On Fedora you can install all these dependencies with:</p>
 <pre><code>dnf install python-devel libxml2-devel libxslt-devel cmake libyaml-devel
@@ -101,14 +102,14 @@
 <p>And on ubuntu / debian:</p>
 <pre><code>apt-get install python-dev libxml2-dev libxslt1-dev cmake libyaml-dev
 </code></pre>
-<p>I guess it should be similar on Ubuntu / debian, refer to <a href="https://cmake.org/install/">https://cmake.org/install/</a> for more info.</p>
+<p>We'll be happy to merge updates to this list if you have successfully built hotdoc on another platform.</p>
 <h2 id="creating-a-virtualenv">Creating a virtualenv</h2>
 <p>It is highly recommended to use a virtual env to try out any new python project, and hotdoc is no exception. You can however skip this step if you really do not
-care about installing hotdoc system-wide.</p>
+mind installing hotdoc system-wide.</p>
 <blockquote>
 <p>Assuming <a href="https://pip.pypa.io/en/stable/">pip</a> is installed</p>
 </blockquote>
-<pre><code>pip3 install virtualenv
+<pre><code>python3 -m pip install virtualenv
 python3 -m venv hotdoc_env
 . hotdoc_env/bin/activate
 </code></pre>
@@ -118,7 +119,7 @@ python3 -m venv hotdoc_env
 <ul>
 <li>
 <p>Using pip to get the last released version of hotdoc:</p>
-<pre><code>pip2 install hotdoc
+<pre><code>python3 -m install hotdoc
 </code></pre>
 </li>
 <li>
@@ -132,7 +133,7 @@ python3 setup.py install
 <p>Installing an editable version from a github clone:</p>
 <pre><code>git clone https://github.com/hotdoc/hotdoc.git
 cd hotdoc
-pip2 install -e .[dev]
+python3 -m pip install -e .[dev]
 </code></pre>
 </li>
 </ul>
@@ -148,7 +149,11 @@ pip2 install -e .[dev]
 	</div>
 </div>
 <div class="hidden-xs hidden-sm hidden-md col-lg-2 col-xl-2">
-	<nav id="toc"></nav>
+	<div id="toc-column">
+		<div id="toc-wrapper" class="mCustomScrollbar" data-mcs-theme="dark">
+			<nav id="toc"></nav>
+		</div>
+	</div>
 </div>
 	</div>
 </div>

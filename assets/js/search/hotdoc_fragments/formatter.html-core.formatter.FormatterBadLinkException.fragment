@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "core.formatter.FormatterBadLinkException \nRaised when a produced html page contains an empty local link to nowhere. \n", "url": "formatter.html#core.formatter.FormatterBadLinkException"});
+fragment_downloaded_cb({"url": "formatter.html#core.formatter.FormatterBadLinkException", "fragment": "core.formatter.FormatterBadLinkException \nRaised when a produced html page contains an empty local link to nowhere. \n"});

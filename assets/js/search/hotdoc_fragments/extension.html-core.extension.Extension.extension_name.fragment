@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "core.extension.Extension.extension_name \nthe unique name of this extension should be overriden and namespaced appropriately. \n", "url": "extension.html#core.extension.Extension.extension_name"});
+fragment_downloaded_cb({"url": "extension.html#core.extension.Extension.extension_name", "fragment": "core.extension.Extension.extension_name \nthe unique name of this extension should be overriden and namespaced appropriately. \n"});

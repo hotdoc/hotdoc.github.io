@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "core.extension.Extension.add_path_argument \nSubclasses may call this to expose a path argument. \n", "url": "extension.html#core.extension.Extension.add_path_argument"});
+fragment_downloaded_cb({"url": "extension.html#core.extension.Extension.add_path_argument", "fragment": "core.extension.Extension.add_path_argument \nSubclasses may call this to expose a path argument. \n"});

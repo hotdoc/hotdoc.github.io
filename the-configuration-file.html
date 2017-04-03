@@ -8,7 +8,6 @@
 <title>The configuration file</title>
 
 <link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
-<link rel="stylesheet" href="assets/css/bootstrap-toc.min.css">
 <link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
 <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
 
@@ -59,10 +58,10 @@
 		<div class="navbar-collapse collapse" id="navbar-wrapper">
 			<ul class="nav navbar-nav" id="menu">
 							</ul>
-			<form action="" class="navbar-form navbar-right">
+			<form action="" class="navbar-form navbar-right" id="navbar-search-form">
                                <div class="form-group has-feedback">
-                                       <input type="text" class="form-control" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
-                                       <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                       <input type="text" class="form-control input-sm" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+				       <span class="glyphicon glyphicon-search form-control-feedback" id="search-mgn-glass"></span>
                                </div>
                        </form>
 
@@ -93,7 +92,9 @@
 <p>The configuration file is a simple, flat json file made of a set of key-value pairs, for example:</p>
 <pre><code class="language-json">{
 	"index": "markdown_files/index.markdown",
-	"sitemap": "sitemap.txt"
+	"sitemap": "sitemap.txt",
+	"project_name": "Foo",
+	"project_version": "0.1"
 }
 </code></pre>
 <p>is a valid hotdoc's configuration file. The valid keys are computed from the
@@ -104,10 +105,10 @@ will look for a file named that way in its invocation folder, use the
 <p>Options specified from the command-line will take precedence over their json counterpart.</p>
 <h2 id="creating-from-a-command-line-invocation">Creating from a command line invocation</h2>
 <p>An easy way to create a configuration file from a command-line invocation is to replace <code>run</code> with <code>conf</code> in the command-line, for example to translate:</p>
-<pre><code class="language-shell">hotdoc --index markdown_files/index.markdown --output built_doc --sitemap sitemap.txt run
+<pre><code class="language-shell">hotdoc --project-name "Foo" --project-version "0.1" --index markdown_files/index.markdown --output built_doc --sitemap sitemap.txt run
 </code></pre>
 <p>you should use</p>
-<pre><code class="language-shell">hotdoc --index markdown_files/index.markdown --output built_doc --sitemap sitemap.txt conf
+<pre><code class="language-shell">hotdoc --project-name "Foo" --project-version "0.1" --index markdown_files/index.markdown --output built_doc --sitemap sitemap.txt conf
 </code></pre>
 <p>This will create a hotdoc.json file in the current directory, which means you can now run hotdoc that way:</p>
 <pre><code class="language-shell">hotdoc run
@@ -123,7 +124,11 @@ will look for a file named that way in its invocation folder, use the
 	</div>
 </div>
 <div class="hidden-xs hidden-sm hidden-md col-lg-2 col-xl-2">
-	<nav id="toc"></nav>
+	<div id="toc-column">
+		<div id="toc-wrapper" class="mCustomScrollbar" data-mcs-theme="dark">
+			<nav id="toc"></nav>
+		</div>
+	</div>
 </div>
 	</div>
 </div>
