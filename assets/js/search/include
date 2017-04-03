@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "include", "urls": ["the-markdown-pages.html#page-description", "porting-guides.html#page-description", "syntax-extensions.html#page-description", "tree.html#core.tree.TreeNoSuchPageException"]});
+urls_downloaded_cb({"urls": ["porting-guides.html#page-description", "syntax-extensions.html#smart-file-inclusion-syntax", "syntax-extensions.html#piped-tables-syntax", "the-markdown-pages.html#set-up-a-basic-page-tree", "the-markdown-pages.html#add-symbols-to-pages", "tree.html#core.tree.TreeNoSuchPageException"], "token": "include"});

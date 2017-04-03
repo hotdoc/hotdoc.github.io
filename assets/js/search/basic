@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "basic", "urls": ["features.html#page-description"]});
+urls_downloaded_cb({"urls": ["porting-guides.html#page-description", "basic-concepts-and-tutorials.html#basic-concepts-and-tutorials", "the-markdown-pages.html#set-up-a-basic-page-tree", "features.html#incremental"], "token": "basic"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "concept", "urls": ["the-markdown-pages.html#page-description", "syntax-extensions.html#page-description"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#smart-file-inclusion-syntax", "the-markdown-pages.html#add-symbols-to-pages"], "token": "concept"});

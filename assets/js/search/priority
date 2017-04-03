@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "priority", "urls": ["config.html#core.config.Config.get"]});
+urls_downloaded_cb({"urls": ["config.html#coreconfigconfigget"], "token": "priority"});

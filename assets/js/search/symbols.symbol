@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "symbols.symbol", "urls": ["formatter.html#core.formatter.Formatter.format_symbol"]});
+urls_downloaded_cb({"urls": ["formatter.html#core.formatter.Formatter.format_symbol"], "token": "symbols.symbol"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.symbols.symbol", "urls": ["extension.html#core.extension.Extension.get_or_create_symbol"]});
+urls_downloaded_cb({"urls": ["symbols.html#coresymbolssymbol", "extension.html#core.extension.Extension.get_or_create_symbol"], "token": "core.symbols.symbol"});

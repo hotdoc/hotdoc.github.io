@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "good", "urls": ["porting-guides.html#page-description"]});
+urls_downloaded_cb({"urls": ["porting-guides.html#finalizing-the-port", "porting-guides.html#autotools-build-files"], "token": "good"});

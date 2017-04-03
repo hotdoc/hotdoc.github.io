@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "header", "urls": ["the-markdown-pages.html#page-description", "porting-guides.html#page-description", "syntax-extensions.html#page-description"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#referencing-another-page", "syntax-extensions.html#piped-tables-syntax", "the-markdown-pages.html#set-up-a-basic-page-tree", "porting-guides.html#page-description"], "token": "header"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "additional", "urls": ["the-markdown-pages.html#page-description", "syntax-extensions.html#page-description"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#link-syntax", "the-markdown-pages.html#set-up-a-basic-page-tree"], "token": "additional"});

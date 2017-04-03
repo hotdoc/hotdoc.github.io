@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "base", "urls": ["exceptions.html#core.exceptions.HotdocException", "index.html#page-description", "symbols.html#core.symbols.Symbol", "features.html#page-description", "extension.html#core.extension.Extension"]});
+urls_downloaded_cb({"urls": ["extension.html#parameters1", "exceptions.html#parameters", "index.html#hotdoc-documentation", "symbols.html#parameters", "features.html#themeability"], "token": "base"});

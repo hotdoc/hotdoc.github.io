@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "handled", "urls": ["the-markdown-pages.html#page-description", "features.html#page-description", "syntax-extensions.html#page-description"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#smart-file-inclusion-syntax", "the-markdown-pages.html#page-description", "features.html#themeability"], "token": "handled"});

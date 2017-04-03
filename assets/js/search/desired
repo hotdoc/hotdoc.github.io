@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "desired", "urls": ["config.html#core.config.Config.get_index", "config.html#core.config.Config.get_sources"]});
+urls_downloaded_cb({"urls": ["config.html#parameters3", "config.html#parameters6"], "token": "desired"});

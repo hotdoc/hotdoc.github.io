@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Then", "urls": ["the-markdown-pages.html#page-description", "porting-guides.html#page-description"]});
+urls_downloaded_cb({"urls": ["the-markdown-pages.html#set-up-a-basic-page-tree", "the-markdown-pages.html#add-symbols-to-pages", "the-markdown-pages.html#page-description", "porting-guides.html#finalizing-the-port"], "token": "Then"});

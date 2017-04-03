@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "wildcard", "urls": ["config.html#core.config.Config.get_sources"]});
+urls_downloaded_cb({"urls": ["config.html#coreconfigconfigget_sources"], "token": "wildcard"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "all_files", "urls": ["filesystem.html#core.filesystem.ChangeTracker.get_stale_files", "extension.html#core.extension.Extension.get_stale_files"]});
+urls_downloaded_cb({"urls": ["extension.html#parameters6", "filesystem.html#parameters"], "token": "all_files"});

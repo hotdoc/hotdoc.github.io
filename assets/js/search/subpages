@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "subpages", "urls": ["the-markdown-pages.html#page-description", "extension.html#core.extension.Extension.get_subpages_sorted", "tree.html#core.tree.Tree.resolve_symbols"]});
+urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.get_subpages_sorted", "the-markdown-pages.html#set-up-a-basic-page-tree", "the-markdown-pages.html#page-description", "tree.html#coretreetreeresolve_symbols"], "token": "subpages"});

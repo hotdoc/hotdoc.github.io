@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "exceptions.html#core.exceptions.InvalidPageMetadata", "fragment": "<div class=\"base_symbol_container\" data-hotdoc-tags=\"\" id=\"core.exceptions.InvalidPageMetadata\">\n\t\t<h3 id=\"coreexceptionsinvalidpagemetadata\">\n\tcore.exceptions.InvalidPageMetadata\n</h3>\n\n\t\t\n<div class=\"class_details\">\n\t<p>Invalid page metadata</p>\n\n</div>\n\n</div>\n\n\n\n"});
+fragment_downloaded_cb({"fragment": "core.exceptions.InvalidPageMetadata \nInvalid page metadata \n", "url": "exceptions.html#core.exceptions.InvalidPageMetadata"});

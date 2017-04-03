@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "user", "urls": ["comment.html#core.comment.Annotation", "comment.html#core.comment.Tag"]});
+urls_downloaded_cb({"urls": ["comment.html#parameters2", "comment.html#parameters3"], "token": "user"});

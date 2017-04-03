@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "located", "urls": ["the-markdown-pages.html#page-description", "porting-guides.html#page-description"]});
+urls_downloaded_cb({"urls": ["the-markdown-pages.html#the-markdown-pages", "the-markdown-pages.html#set-up-a-basic-page-tree", "porting-guides.html#set-up-the-hotdoc-folder"], "token": "located"});

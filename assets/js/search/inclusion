@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "inclusion", "urls": ["porting-guides.html#page-description"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#smart-file-inclusion-syntax", "porting-guides.html#page-description"], "token": "inclusion"});

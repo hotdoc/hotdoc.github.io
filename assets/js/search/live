@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "live", "urls": ["formatter.html#core.formatter.Formatter", "formatter.html#core.formatter.Formatter.patch_page", "examples.html#page-description"]});
+urls_downloaded_cb({"urls": ["examples.html#a-tiny-test-project", "formatter.html#coreformatterformatter", "formatter.html#core.formatter.Formatter.patch_page"], "token": "live"});

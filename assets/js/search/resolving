@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "resolving", "urls": ["extension.html#core.extension.Extension.format_page", "config.html#core.config.Config.get_path"]});
+urls_downloaded_cb({"urls": ["extension.html#parameters16", "config.html#coreconfigconfigget_path"], "token": "resolving"});

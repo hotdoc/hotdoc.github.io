@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "needed", "urls": ["running.html#page-description", "extension.html#core.extension.Extension.get_dependencies"]});
+urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.get_dependencies", "running.html#disabling-incremental-build"], "token": "needed"});

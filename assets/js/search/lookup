@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "lookup", "urls": ["config.html#core.config.Config.get_path", "config.html#core.config.Config.get_paths"]});
+urls_downloaded_cb({"urls": ["config.html#parameters4", "config.html#parameters5"], "token": "lookup"});

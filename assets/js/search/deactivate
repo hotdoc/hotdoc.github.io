@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "deactivate", "urls": ["installing.html#page-description"]});
+urls_downloaded_cb({"urls": ["installing.html#creating-a-virtualenv"], "token": "deactivate"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "scripts", "urls": ["porting-guides.html#page-description", "features.html#page-description"]});
+urls_downloaded_cb({"urls": ["porting-guides.html#gtkdoc-porting-guide", "features.html#themeability"], "token": "scripts"});

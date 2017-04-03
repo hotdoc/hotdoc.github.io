@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "test", "urls": ["the-markdown-pages.html#page-description"]});
+urls_downloaded_cb({"urls": ["examples.html#a-tiny-test-project", "the-markdown-pages.html#set-up-a-basic-page-tree"], "token": "test"});

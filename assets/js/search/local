@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "local", "urls": ["formatter.html#core.formatter.FormatterBadLinkException", "syntax-extensions.html#page-description"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#smart-file-inclusion-syntax", "formatter.html#core.formatter.FormatterBadLinkException"], "token": "local"});

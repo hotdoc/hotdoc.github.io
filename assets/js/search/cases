@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "cases", "urls": ["config.html#core.config.Config", "syntax-extensions.html#page-description"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#link-syntax", "config.html#parameters"], "token": "cases"});

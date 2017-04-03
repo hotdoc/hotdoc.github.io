@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "tree.html#page-description", "fragment": "<div id=\"page-description\" data-hotdoc-source=\"tree.py\">\n<h1 id=\"coretreetreenosuchpageexception\">core.tree.TreeNoSuchPageException</h1>\n</div>\n\n\n"});
+fragment_downloaded_cb({"fragment": "core.tree.TreeNoSuchPageException \n", "url": "tree.html#page-description"});

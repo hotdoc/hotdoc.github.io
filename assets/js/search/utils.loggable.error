@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "utils.loggable.error", "urls": ["extension.html#core.extension.Extension.error"]});
+urls_downloaded_cb({"urls": ["extension.html#coreextensionextensionerror", "extension.html#parameters3"], "token": "utils.loggable.error"});

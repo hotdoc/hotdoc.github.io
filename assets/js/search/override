@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "override", "urls": ["features.html#page-description", "extension.html#core.extension.Extension.get_dependencies", "config.html#core.config.Config"]});
+urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.get_dependencies", "config.html#parameters", "features.html#themeability"], "token": "override"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "syntax", "urls": ["the-markdown-pages.html#page-description", "syntax-extensions.html#page-description"]});
+urls_downloaded_cb({"urls": ["features.html#simple-yet-powerful-syntax", "syntax-extensions.html#piped-tables-syntax", "syntax-extensions.html#smart-file-inclusion-syntax", "syntax-extensions.html#link-syntax", "syntax-extensions.html#page-description", "the-markdown-pages.html#the-markdown-pages", "the-markdown-pages.html#add-symbols-to-pages"], "token": "syntax"});

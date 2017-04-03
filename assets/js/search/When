@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "When", "urls": ["the-markdown-pages.html#page-description", "tree.html#core.tree.Page.resolve_symbols"]});
+urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-description", "tree.html#coretreepageresolve_symbols"], "token": "When"});
