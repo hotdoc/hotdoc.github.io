@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "absolute", "urls": ["config.html#coreconfigconfigget_index", "config.html#coreconfigconfigget_sources"]});
+urls_downloaded_cb({"urls": ["config.html#coreconfigconfigget_index", "config.html#coreconfigconfigget_sources"], "token": "absolute"});

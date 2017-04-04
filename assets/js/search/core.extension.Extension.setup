@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.extension.Extension.setup", "urls": ["extension.html#coreextensionextensionsetup", "extension.html#core.extension.ExtDependency.is_upstream"]});
+urls_downloaded_cb({"urls": ["extension.html#coreextensionextensionsetup", "extension.html#core.extension.ExtDependency.is_upstream"], "token": "core.extension.Extension.setup"});

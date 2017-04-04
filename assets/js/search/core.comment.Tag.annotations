@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.comment.Tag.annotations", "urls": ["comment.html#corecommenttagannotations"]});
+urls_downloaded_cb({"urls": ["comment.html#corecommenttagannotations"], "token": "core.comment.Tag.annotations"});

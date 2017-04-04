@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "options", "urls": ["config.html#parameters", "the-configuration-file.html#format", "setting-up-a-project.html#setting-up-a-project"]});
+urls_downloaded_cb({"urls": ["config.html#parameters", "the-configuration-file.html#format", "setting-up-a-project.html#setting-up-a-project"], "token": "options"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "features", "urls": ["features.html#features", "users.html#a-tiny-test-project", "examples.html#a-tiny-test-project"]});
+urls_downloaded_cb({"urls": ["features.html#features", "users.html#a-tiny-test-project", "examples.html#a-tiny-test-project"], "token": "features"});

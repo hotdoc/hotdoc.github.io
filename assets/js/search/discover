@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "discover", "urls": ["extension.html#core.extension.Extension.get_or_create_symbol"]});
+urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.get_or_create_symbol"], "token": "discover"});

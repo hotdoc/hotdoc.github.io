@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "simply", "urls": ["installing.html#creating-a-virtualenv", "running.html#running", "running.html#disabling-incremental-build"]});
+urls_downloaded_cb({"urls": ["installing.html#creating-a-virtualenv", "running.html#running", "running.html#disabling-incremental-build"], "token": "simply"});

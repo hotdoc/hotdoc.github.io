@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "tiny", "urls": ["examples.html#a-tiny-test-project", "users.html#a-tiny-test-project"]});
+urls_downloaded_cb({"urls": ["examples.html#a-tiny-test-project", "users.html#a-tiny-test-project"], "token": "tiny"});

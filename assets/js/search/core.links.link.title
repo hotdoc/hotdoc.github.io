@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.links.link.title", "urls": ["links.html#corelinkslinktitle"]});
+urls_downloaded_cb({"urls": ["links.html#corelinkslinktitle"], "token": "core.links.link.title"});

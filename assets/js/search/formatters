@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "formatters", "urls": ["the-markdown-pages.html#page-description", "index.html#hotdoc-documentation"]});
+urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-description", "index.html#hotdoc-documentation"], "token": "formatters"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "nowhere", "urls": ["formatter.html#core.formatter.FormatterBadLinkException"]});
+urls_downloaded_cb({"urls": ["formatter.html#core.formatter.FormatterBadLinkException"], "token": "nowhere"});

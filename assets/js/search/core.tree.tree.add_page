@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.tree.tree.add_page", "urls": ["tree.html#coretreetreeadd_page"]});
+urls_downloaded_cb({"urls": ["tree.html#coretreetreeadd_page"], "token": "core.tree.tree.add_page"});

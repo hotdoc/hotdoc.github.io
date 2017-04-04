@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "deal", "urls": ["config.html#parameters"]});
+urls_downloaded_cb({"urls": ["config.html#parameters"], "token": "deal"});

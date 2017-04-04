@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "of", "urls": ["extension.html#core.extension.Extension.format_page", "the-markdown-pages.html#page-description"]});
+urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.format_page", "the-markdown-pages.html#page-description"], "token": "of"});

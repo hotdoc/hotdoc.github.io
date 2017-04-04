@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "version", "urls": ["syntax-extensions.html#piped-tables-syntax", "porting-guides.html#finalizing-the-port", "installing.html#cmake", "installing.html#hotdoc-itself"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#piped-tables-syntax", "porting-guides.html#finalizing-the-port", "installing.html#cmake", "installing.html#hotdoc-itself"], "token": "version"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.tree.Page.title", "urls": ["tree.html#coretreepagetitle"]});
+urls_downloaded_cb({"urls": ["tree.html#coretreepagetitle"], "token": "core.tree.Page.title"});

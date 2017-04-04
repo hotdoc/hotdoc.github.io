@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.tree.Tree.get_stale_pages", "urls": ["tree.html#coretreetreeget_stale_pages"]});
+urls_downloaded_cb({"urls": ["tree.html#coretreetreeget_stale_pages"], "token": "core.tree.Tree.get_stale_pages"});

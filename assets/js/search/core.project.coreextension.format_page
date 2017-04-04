@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.project.coreextension.format_page", "urls": ["project.html#core.project.CoreExtension.format_page"]});
+urls_downloaded_cb({"urls": ["project.html#core.project.CoreExtension.format_page"], "token": "core.project.coreextension.format_page"});

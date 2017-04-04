@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.config.config.get_markdown_files", "urls": ["config.html#core.config.Config.get_markdown_files"]});
+urls_downloaded_cb({"urls": ["config.html#core.config.Config.get_markdown_files"], "token": "core.config.config.get_markdown_files"});

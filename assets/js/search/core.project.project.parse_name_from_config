@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.project.project.parse_name_from_config", "urls": ["project.html#core.project.Project.parse_name_from_config"]});
+urls_downloaded_cb({"urls": ["project.html#core.project.Project.parse_name_from_config"], "token": "core.project.project.parse_name_from_config"});

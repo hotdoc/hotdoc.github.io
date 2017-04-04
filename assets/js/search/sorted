@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "sorted", "urls": ["extension.html#core.extension.Extension.get_subpages_sorted", "tree.html#coretreepageresolve_symbols"]});
+urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.get_subpages_sorted", "tree.html#coretreepageresolve_symbols"], "token": "sorted"});

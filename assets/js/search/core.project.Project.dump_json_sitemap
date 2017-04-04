@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.project.Project.dump_json_sitemap", "urls": ["project.html#core.project.Project.dump_json_sitemap"]});
+urls_downloaded_cb({"urls": ["project.html#core.project.Project.dump_json_sitemap"], "token": "core.project.Project.dump_json_sitemap"});

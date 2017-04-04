@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "order", "urls": ["tree.html#coretreetreewalk", "formatter.html#core.formatter.Formatter.patch_page"]});
+urls_downloaded_cb({"urls": ["tree.html#coretreetreewalk", "formatter.html#core.formatter.Formatter.patch_page"], "token": "order"});

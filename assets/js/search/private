@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "private", "urls": ["the-markdown-pages.html#page-description", "cleaning.html#cleaning"]});
+urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-description", "cleaning.html#cleaning"], "token": "private"});

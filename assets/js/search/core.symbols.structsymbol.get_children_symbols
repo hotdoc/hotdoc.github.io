@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.symbols.structsymbol.get_children_symbols", "urls": ["symbols.html#core.symbols.StructSymbol.get_children_symbols"]});
+urls_downloaded_cb({"urls": ["symbols.html#core.symbols.StructSymbol.get_children_symbols"], "token": "core.symbols.structsymbol.get_children_symbols"});

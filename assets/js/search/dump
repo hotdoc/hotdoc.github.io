@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "dump", "urls": ["config.html#coreconfigconfigdump"]});
+urls_downloaded_cb({"urls": ["config.html#coreconfigconfigdump"], "token": "dump"});
