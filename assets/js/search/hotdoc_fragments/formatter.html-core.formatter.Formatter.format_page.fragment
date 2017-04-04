@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "core.formatter.Formatter.format_page \nBanana banana \n", "url": "formatter.html#core.formatter.Formatter.format_page"});
+fragment_downloaded_cb({"url": "formatter.html#core.formatter.Formatter.format_page", "fragment": "core.formatter.Formatter.format_page \nBanana banana \n"});

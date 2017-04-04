@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "\n", "url": "extension.html#returns1"});
+fragment_downloaded_cb({"url": "extension.html#returns1", "fragment": "\n"});

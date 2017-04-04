@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "core.tree.Page.is_stale \n", "url": "tree.html#coretreepageis_stale"});
+fragment_downloaded_cb({"url": "tree.html#coretreepageis_stale", "fragment": "core.tree.Page.is_stale \n"});

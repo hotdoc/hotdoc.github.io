@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "core.project.Project.dump_json_sitemap \nBanana banana \n", "url": "project.html#core.project.Project.dump_json_sitemap"});
+fragment_downloaded_cb({"url": "project.html#core.project.Project.dump_json_sitemap", "fragment": "core.project.Project.dump_json_sitemap \nBanana banana \n"});
