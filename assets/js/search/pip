@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "pip", "urls": ["installing.html#creating-a-virtualenv", "installing.html#hotdoc-itself"]});
+urls_downloaded_cb({"urls": ["installing.html#creating-a-virtualenv", "installing.html#hotdoc-itself"], "token": "pip"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "debian", "urls": ["users.html#apertis-documentation", "installing.html#commandline-install"]});
+urls_downloaded_cb({"urls": ["users.html#apertis-documentation", "installing.html#commandline-install"], "token": "debian"});

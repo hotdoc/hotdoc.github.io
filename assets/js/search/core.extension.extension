@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.extension.extension", "urls": ["extension.html#coreextensionextdependency1", "extension.html#coreextensionextension", "config.html#parameters", "formatter.html#coreformatterformatter"]});
+urls_downloaded_cb({"urls": ["extension.html#coreextensionextdependency1", "extension.html#coreextensionextension", "config.html#parameters", "formatter.html#coreformatterformatter"], "token": "core.extension.extension"});

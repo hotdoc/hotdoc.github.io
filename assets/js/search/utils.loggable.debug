@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "utils.loggable.debug", "urls": ["extension.html#coreextensionextensiondebug", "extension.html#parameters4"]});
+urls_downloaded_cb({"urls": ["extension.html#coreextensionextensiondebug", "extension.html#parameters4"], "token": "utils.loggable.debug"});

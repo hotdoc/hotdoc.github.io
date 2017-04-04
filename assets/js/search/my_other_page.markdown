@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "my_other_page.markdown", "urls": ["syntax-extensions.html#referencing-another-page"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#referencing-another-page"], "token": "my_other_page.markdown"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.database.Database.persist", "urls": ["database.html#coredatabasedatabasepersist"]});
+urls_downloaded_cb({"urls": ["database.html#coredatabasedatabasepersist"], "token": "core.database.Database.persist"});

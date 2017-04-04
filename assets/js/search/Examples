@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Examples", "urls": ["examples.html#examples", "users.html#examples"]});
+urls_downloaded_cb({"urls": ["examples.html#examples", "users.html#examples"], "token": "Examples"});

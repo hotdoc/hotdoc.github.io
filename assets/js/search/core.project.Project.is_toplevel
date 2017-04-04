@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.project.Project.is_toplevel", "urls": ["project.html#coreprojectprojectis_toplevel"]});
+urls_downloaded_cb({"urls": ["project.html#coreprojectprojectis_toplevel"], "token": "core.project.Project.is_toplevel"});

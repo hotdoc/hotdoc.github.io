@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "core.tree.page.is_stale", "urls": ["tree.html#coretreepageis_stale"]});
+urls_downloaded_cb({"urls": ["tree.html#coretreepageis_stale"], "token": "core.tree.page.is_stale"});

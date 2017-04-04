@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Extensions", "urls": ["syntax-extensions.html#page-description", "extension.html#core.extension.Extension.get_or_create_symbol"]});
+urls_downloaded_cb({"urls": ["syntax-extensions.html#page-description", "extension.html#core.extension.Extension.get_or_create_symbol"], "token": "Extensions"});
