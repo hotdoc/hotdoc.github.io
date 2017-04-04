@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "extension.html#core.extension.Extension.add_index_argument", "fragment": "core.extension.Extension.add_index_argument \nSubclasses may call this to add an index argument. \n"});
+fragment_downloaded_cb({"fragment": "core.extension.Extension.add_index_argument \nSubclasses may call this to add an index argument. \n", "url": "extension.html#core.extension.Extension.add_index_argument"});

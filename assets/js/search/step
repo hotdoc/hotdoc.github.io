@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-markdown-pages.html#add-symbols-to-pages", "porting-guides.html#finalizing-the-port", "installing.html#creating-a-virtualenv"], "token": "step"});
+urls_downloaded_cb({"token": "step", "urls": ["the-markdown-pages.html#add-symbols-to-pages", "porting-guides.html#finalizing-the-port", "installing.html#creating-a-virtualenv"]});

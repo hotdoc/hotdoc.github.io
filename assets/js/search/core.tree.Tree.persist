@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["tree.html#coretreetreepersist"], "token": "core.tree.Tree.persist"});
+urls_downloaded_cb({"token": "core.tree.Tree.persist", "urls": ["tree.html#coretreetreepersist"]});

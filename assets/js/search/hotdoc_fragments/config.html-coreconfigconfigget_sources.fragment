@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "config.html#coreconfigconfigget_sources", "fragment": "core.config.Config.get_sources \nRetrieve a set of absolute paths to sources according to prefix \nConfigParser will perform wildcard expansion and filtering. \n"});
+fragment_downloaded_cb({"fragment": "core.config.Config.get_sources \nRetrieve a set of absolute paths to sources according to prefix \nConfigParser will perform wildcard expansion and filtering. \n", "url": "config.html#coreconfigconfigget_sources"});

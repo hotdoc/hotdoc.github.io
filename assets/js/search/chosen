@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-description", "features.html#simple-yet-powerful-syntax"], "token": "chosen"});
+urls_downloaded_cb({"token": "chosen", "urls": ["the-markdown-pages.html#page-description", "features.html#simple-yet-powerful-syntax"]});

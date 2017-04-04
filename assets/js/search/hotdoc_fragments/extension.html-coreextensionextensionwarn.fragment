@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "extension.html#coreextensionextensionwarn", "fragment": "core.extension.Extension.warn \nShortcut function for loggable.warn \n"});
+fragment_downloaded_cb({"fragment": "core.extension.Extension.warn \nShortcut function for loggable.warn \n", "url": "extension.html#coreextensionextensionwarn"});

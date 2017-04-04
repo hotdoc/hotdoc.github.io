@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["project.html#coreprojectprojectfinalize"], "token": "core.project.Project.finalize"});
+urls_downloaded_cb({"token": "core.project.Project.finalize", "urls": ["project.html#coreprojectprojectfinalize"]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#hotdoc-itself"], "token": "congratulations"});
+urls_downloaded_cb({"token": "congratulations", "urls": ["installing.html#hotdoc-itself"]});

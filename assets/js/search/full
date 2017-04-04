@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.format_page", "running.html#running", "comment.html#corecommentcomment_from_tag"], "token": "full"});
+urls_downloaded_cb({"token": "full", "urls": ["extension.html#core.extension.Extension.format_page", "running.html#running", "comment.html#corecommentcomment_from_tag"]});

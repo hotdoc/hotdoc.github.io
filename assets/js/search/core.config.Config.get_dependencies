@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["config.html#core.config.Config.get_dependencies"], "token": "core.config.Config.get_dependencies"});
+urls_downloaded_cb({"token": "core.config.Config.get_dependencies", "urls": ["config.html#core.config.Config.get_dependencies"]});

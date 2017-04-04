@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#cmake"], "token": "submodule"});
+urls_downloaded_cb({"token": "submodule", "urls": ["installing.html#cmake"]});

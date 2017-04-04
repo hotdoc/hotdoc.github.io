@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "comment.html#corecommentcommenttags", "fragment": "core.comment.Comment.tags \n"});
+fragment_downloaded_cb({"fragment": "core.comment.Comment.tags \n", "url": "comment.html#corecommentcommenttags"});

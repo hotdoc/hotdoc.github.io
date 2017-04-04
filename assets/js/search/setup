@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["running.html#running", "formatter.html#core.formatter.Formatter.parse_toplevel_config"], "token": "setup"});
+urls_downloaded_cb({"token": "setup", "urls": ["running.html#running", "formatter.html#core.formatter.Formatter.parse_toplevel_config"]});

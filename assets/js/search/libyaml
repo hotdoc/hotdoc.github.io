@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#pyyaml"], "token": "libyaml"});
+urls_downloaded_cb({"token": "libyaml", "urls": ["installing.html#pyyaml"]});

@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "extension.html#coreextensionextensionerror", "fragment": "core.extension.Extension.error \nShortcut function for utils.loggable.error \n"});
+fragment_downloaded_cb({"fragment": "core.extension.Extension.error \nShortcut function for utils.loggable.error \n", "url": "extension.html#coreextensionextensionerror"});

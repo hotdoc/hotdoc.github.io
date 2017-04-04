@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#core.extension.ExtDependency.is_upstream"], "token": "Circular"});
+urls_downloaded_cb({"token": "Circular", "urls": ["extension.html#core.extension.ExtDependency.is_upstream"]});

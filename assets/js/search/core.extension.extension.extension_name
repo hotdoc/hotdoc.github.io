@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.extension_name"], "token": "core.extension.extension.extension_name"});
+urls_downloaded_cb({"token": "core.extension.extension.extension_name", "urls": ["extension.html#core.extension.Extension.extension_name"]});

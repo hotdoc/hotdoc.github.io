@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["config.html#parameters"], "token": "common"});
+urls_downloaded_cb({"token": "common", "urls": ["config.html#parameters"]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#commandline-install"], "token": "install"});
+urls_downloaded_cb({"token": "install", "urls": ["installing.html#commandline-install"]});

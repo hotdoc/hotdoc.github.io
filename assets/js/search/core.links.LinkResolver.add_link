@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["links.html#corelinkslinkresolveradd_link"], "token": "core.links.LinkResolver.add_link"});
+urls_downloaded_cb({"token": "core.links.LinkResolver.add_link", "urls": ["links.html#corelinkslinkresolveradd_link"]});

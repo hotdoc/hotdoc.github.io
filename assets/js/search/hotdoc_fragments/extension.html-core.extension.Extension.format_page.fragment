@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "extension.html#core.extension.Extension.format_page", "fragment": "core.extension.Extension.format_page \nCalled by project.Project.format_page to leave full control to extensions over the formatting of the pages they are responsible of. \n"});
+fragment_downloaded_cb({"fragment": "core.extension.Extension.format_page \nCalled by project.Project.format_page to leave full control to extensions over the formatting of the pages they are responsible of. \n", "url": "extension.html#core.extension.Extension.format_page"});

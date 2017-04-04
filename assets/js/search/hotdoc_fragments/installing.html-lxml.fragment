@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "installing.html#lxml", "fragment": "lxml \nHotdoc uses lxml which depends on libxml2 and libxslt. \n"});
+fragment_downloaded_cb({"fragment": "lxml \nHotdoc uses lxml which depends on libxml2 and libxslt. \n", "url": "installing.html#lxml"});

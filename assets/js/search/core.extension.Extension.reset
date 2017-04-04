@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#coreextensionextensionreset"], "token": "core.extension.Extension.reset"});
+urls_downloaded_cb({"token": "core.extension.Extension.reset", "urls": ["extension.html#coreextensionextensionreset"]});

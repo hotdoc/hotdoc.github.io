@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["database.html#coredatabasedatabaseclose"], "token": "core.database.database.close"});
+urls_downloaded_cb({"token": "core.database.database.close", "urls": ["database.html#coredatabasedatabaseclose"]});

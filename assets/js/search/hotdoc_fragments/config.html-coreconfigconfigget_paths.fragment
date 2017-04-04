@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "config.html#coreconfigconfigget_paths", "fragment": "core.config.Config.get_paths \nSame as ConfigParser.get_path for a list of paths. \n"});
+fragment_downloaded_cb({"fragment": "core.config.Config.get_paths \nSame as ConfigParser.get_path for a list of paths. \n", "url": "config.html#coreconfigconfigget_paths"});

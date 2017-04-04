@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url": "extension.html#core.extension.ExtDependency.dependency_name", "fragment": "core.extension.ExtDependency.dependency_name \nthe name of the extension depended on. \n"});
+fragment_downloaded_cb({"fragment": "core.extension.ExtDependency.dependency_name \nthe name of the extension depended on. \n", "url": "extension.html#core.extension.ExtDependency.dependency_name"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["tree.html#coretreetreeupdate_signal"], "token": "core.tree.tree.update_signal"});
+urls_downloaded_cb({"token": "core.tree.tree.update_signal", "urls": ["tree.html#coretreetreeupdate_signal"]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["index.html#hotdoc-documentation"], "token": "pick"});
+urls_downloaded_cb({"token": "pick", "urls": ["index.html#hotdoc-documentation"]});
