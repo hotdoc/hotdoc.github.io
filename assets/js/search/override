@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#core.extension.Extension.get_dependencies", "config.html#parameters", "features.html#themeability"], "token": "override"});
+urls_downloaded_cb({"token": "override", "urls": [{"url": "the-smart-index.html#override-default-indexing-behaviour", "context": {"gi-language": ["default"]}}, {"url": "features.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "the-smart-index.html#page-description", "context": {"gi-language": ["default"]}}]});

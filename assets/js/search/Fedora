@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#commandline-install"], "token": "Fedora"});
+urls_downloaded_cb({"token": "Fedora", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

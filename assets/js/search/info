@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#commandline-install"], "token": "info"});
+urls_downloaded_cb({"token": "info", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-creation-tutorial", "setting-up-a-project.html#page-description"], "token": "tutorial"});
+urls_downloaded_cb({"token": "tutorial", "urls": [{"url": "the-markdown-pages.html#page-creation-tutorial", "context": {"gi-language": ["default"]}}, {"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "setting-up-a-project.html#page-description", "context": {"gi-language": ["default"]}}]});

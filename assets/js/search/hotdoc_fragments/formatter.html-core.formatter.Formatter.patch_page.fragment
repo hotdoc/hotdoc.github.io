@@ -1,1 +1,0 @@
-fragment_downloaded_cb({"fragment": "core.formatter.Formatter.patch_page \nSubclasses should implement this in order to allow live patching of the documentation. \n", "url": "formatter.html#core.formatter.Formatter.patch_page"});

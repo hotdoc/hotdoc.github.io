@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-configuration-file.html#page-description", "the-configuration-file.html#format"], "token": "invocation"});
+urls_downloaded_cb({"token": "invocation", "urls": [{"url": "the-configuration-file.html#creating-from-a-command-line-invocation", "context": {"gi-language": ["default"]}}, {"url": "the-configuration-file.html#page-description", "context": {"gi-language": ["default"]}}]});

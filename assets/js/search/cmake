@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#cmake"], "token": "cmake"});
+urls_downloaded_cb({"token": "cmake", "urls": [{"url": "installing.html#cmake", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

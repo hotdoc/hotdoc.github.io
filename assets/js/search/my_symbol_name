@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["syntax-extensions.html#referencing-a-symbol"], "token": "my_symbol_name"});
+urls_downloaded_cb({"token": "my_symbol_name", "urls": [{"url": "syntax-extensions.html#page-description", "context": {"gi-language": ["default"]}}]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#parameters", "features.html#incremental"], "token": "dependency"});
+urls_downloaded_cb({"token": "dependency", "urls": [{"url": "features.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

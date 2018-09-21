@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#systemwide-dependencies", "installing.html#creating-a-virtualenv"], "token": "wide"});
+urls_downloaded_cb({"token": "wide", "urls": [{"url": "installing.html#systemwide-dependencies", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

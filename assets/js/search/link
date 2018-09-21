@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["syntax-extensions.html#link-syntax", "syntax-extensions.html#referencing-another-page", "links.html#parameters5", "links.html#parameters6", "formatter.html#core.formatter.FormatterBadLinkException", "formatter.html#parameters9"], "token": "link"});
+urls_downloaded_cb({"token": "link", "urls": [{"url": "syntax-extensions.html#link-syntax", "context": {"gi-language": ["default"]}}, {"url": "syntax-extensions.html#page-description", "context": {"gi-language": ["default"]}}]});

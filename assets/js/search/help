@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#parameters11", "extension.html#parameters12", "the-markdown-pages.html#page-creation-tutorial", "the-markdown-pages.html#setting-up-a-basic-page-tree", "config.html#parameters", "the-configuration-file.html#format"], "token": "help"});
+urls_downloaded_cb({"token": "help", "urls": [{"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "the-configuration-file.html#page-description", "context": {"gi-language": ["default"]}}]});

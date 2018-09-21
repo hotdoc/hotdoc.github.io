@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-description", "index.html#hotdoc-documentation"], "token": "formatters"});
+urls_downloaded_cb({"token": "formatters", "urls": [{"url": "index.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}]});

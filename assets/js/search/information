@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#parameters", "extension.html#core.extension.Extension.get_or_create_symbol", "setting-up-a-project.html#page-description"], "token": "information"});
+urls_downloaded_cb({"token": "information", "urls": [{"url": "setting-up-a-project.html#page-description", "context": {"gi-language": ["default"]}}]});

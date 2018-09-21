@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#systemwide-dependencies", "extension.html#core.extension.ExtDependency.is_upstream", "config.html#parameters", "config.html#core.config.Config.get_dependencies", "installing.html#commandline-install"], "token": "dependencies"});
+urls_downloaded_cb({"token": "dependencies", "urls": [{"url": "installing.html#systemwide-dependencies", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

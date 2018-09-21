@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#creating-a-virtualenv"], "token": "activate"});
+urls_downloaded_cb({"token": "activate", "urls": [{"url": "the-smart-index.html#activate-smart-indexing", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

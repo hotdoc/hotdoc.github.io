@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["extension.html#parameters10", "extension.html#core.extension.Extension.add_path_argument", "extension.html#core.extension.Extension.add_paths_argument", "the-markdown-pages.html#add-symbols-to-pages", "config.html#parameters", "features.html#api"], "token": "expose"});
+urls_downloaded_cb({"token": "expose", "urls": [{"url": "features.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}]});

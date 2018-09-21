@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#creating-a-virtualenv"], "token": "hotdoc_env"});
+urls_downloaded_cb({"token": "hotdoc_env", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

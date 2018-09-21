@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["features.html#simple-yet-powerful-syntax"], "token": "Simple"});
+urls_downloaded_cb({"token": "Simple", "urls": [{"url": "features.html#simple-yet-powerful-syntax", "context": {"gi-language": ["default"]}}]});

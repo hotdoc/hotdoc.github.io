@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-description", "installing.html#cmake", "installing.html#creating-a-virtualenv", "installing.html#hotdoc-itself"], "token": "installed"});
+urls_downloaded_cb({"token": "installed", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}]});

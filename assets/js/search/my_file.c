@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["syntax-extensions.html#smart-file-inclusion-syntax"], "token": "my_file.c"});
+urls_downloaded_cb({"token": "my_file.c", "urls": [{"url": "syntax-extensions.html#page-description", "context": {"gi-language": ["default"]}}]});

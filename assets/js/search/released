@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#hotdoc-itself"], "token": "released"});
+urls_downloaded_cb({"token": "released", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

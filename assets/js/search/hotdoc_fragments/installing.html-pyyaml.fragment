@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "pyyaml \nHotdoc uses pyyaml to parse yaml front matter metadata in markdown pages it depends on libyaml. \n", "url": "installing.html#pyyaml"});
+fragment_downloaded_cb({"url": "installing.html#pyyaml", "fragment": "pyyaml \n"});

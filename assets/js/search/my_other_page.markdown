@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["syntax-extensions.html#referencing-another-page"], "token": "my_other_page.markdown"});
+urls_downloaded_cb({"token": "my_other_page.markdown", "urls": [{"url": "syntax-extensions.html#page-description", "context": {"gi-language": ["default"]}}]});

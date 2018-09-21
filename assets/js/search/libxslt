@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#lxml"], "token": "libxslt"});
+urls_downloaded_cb({"token": "libxslt", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

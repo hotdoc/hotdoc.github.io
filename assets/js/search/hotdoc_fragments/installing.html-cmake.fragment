@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"fragment": "cmake \nFor now hotdoc bundles its own version of libcmark as a submodule and builds it using cmake which thus needs to be installed on the system. \n", "url": "installing.html#cmake"});
+fragment_downloaded_cb({"url": "installing.html#cmake", "fragment": "cmake \n"});

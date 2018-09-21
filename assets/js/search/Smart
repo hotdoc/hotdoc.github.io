@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["syntax-extensions.html#smart-file-inclusion-syntax"], "token": "Smart"});
+urls_downloaded_cb({"token": "Smart", "urls": [{"url": "syntax-extensions.html#smart-file-inclusion-syntax", "context": {"gi-language": ["default"]}}, {"url": "the-smart-index.html#page-description", "context": {"gi-language": ["default"]}}]});

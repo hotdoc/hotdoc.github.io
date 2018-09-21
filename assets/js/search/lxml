@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#lxml"], "token": "lxml"});
+urls_downloaded_cb({"token": "lxml", "urls": [{"url": "installing.html#lxml", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

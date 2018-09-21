@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#pyyaml"], "token": "pyyaml"});
+urls_downloaded_cb({"token": "pyyaml", "urls": [{"url": "installing.html#pyyaml", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

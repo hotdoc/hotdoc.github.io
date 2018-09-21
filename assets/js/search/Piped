@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["syntax-extensions.html#piped-tables-syntax"], "token": "Piped"});
+urls_downloaded_cb({"token": "Piped", "urls": [{"url": "syntax-extensions.html#piped-tables-syntax", "context": {"gi-language": ["default"]}}]});

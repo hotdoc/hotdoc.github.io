@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["cleaning.html#cleaning"], "token": "Cleaning"});
+urls_downloaded_cb({"token": "Cleaning", "urls": [{"url": "cleaning.html#cleaning", "context": {"gi-language": ["default"]}}]});

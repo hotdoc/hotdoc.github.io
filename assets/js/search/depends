@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["porting-guides.html#page-description", "extension.html#core.extension.Extension.get_dependencies", "installing.html#lxml", "installing.html#pyyaml"], "token": "depends"});
+urls_downloaded_cb({"token": "depends", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

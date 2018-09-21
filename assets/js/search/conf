@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-configuration-file.html#format", "the-configuration-file.html#page-description"], "token": "conf"});
+urls_downloaded_cb({"token": "conf", "urls": [{"url": "the-configuration-file.html#page-description", "context": {"gi-language": ["default"]}}]});

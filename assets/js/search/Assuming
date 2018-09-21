@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["installing.html#creating-a-virtualenv", "cleaning.html#cleaning"], "token": "Assuming"});
+urls_downloaded_cb({"token": "Assuming", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "cleaning.html#page-description", "context": {"gi-language": ["default"]}}]});

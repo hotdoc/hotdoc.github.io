@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["setting-up-a-project.html#page-description", "the-markdown-pages.html#page-description", "examples.html#page-description"], "token": "scratch"});
+urls_downloaded_cb({"token": "scratch", "urls": [{"url": "setting-up-a-project.html#setting-up-a-project-from-scratch", "context": {"gi-language": ["default"]}}, {"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-description"], "token": "top"});
+urls_downloaded_cb({"token": "top", "urls": [{"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "the-smart-index.html#page-description", "context": {"gi-language": ["default"]}}]});

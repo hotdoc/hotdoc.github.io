@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["examples.html#page-description", "users.html#page-description"], "token": "bootstrapped"});
+urls_downloaded_cb({"token": "bootstrapped", "urls": [{"url": "users.html#hotdocs-own-bootstrapped-documentation", "context": {"gi-language": ["default"]}}]});

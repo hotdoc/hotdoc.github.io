@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["syntax-extensions.html#referencing-another-page"], "token": "whitespaces"});
+urls_downloaded_cb({"token": "whitespaces", "urls": [{"url": "syntax-extensions.html#page-description", "context": {"gi-language": ["default"]}}]});

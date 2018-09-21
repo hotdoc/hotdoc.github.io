@@ -1,1 +1,1 @@
-urls_downloaded_cb({"urls": ["the-markdown-pages.html#page-description", "examples.html#page-description", "running.html#disabling-incremental-build"], "token": "rebuild"});
+urls_downloaded_cb({"token": "rebuild", "urls": [{"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "running.html#page-description", "context": {"gi-language": ["default"]}}]});

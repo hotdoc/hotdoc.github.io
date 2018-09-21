@@ -1,1 +1,0 @@
-fragment_downloaded_cb({"fragment": "A store of comments and symbols. Eventually during the documentation generation phase comments and symbols are matched up using hotdoc.core.comment.Comment.name and hotdoc.core.symbol.Symbol.unique_name to determine what goes into the generated documentation and how it is described. \n", "url": "database.html#coredatabasedatabase1"});
