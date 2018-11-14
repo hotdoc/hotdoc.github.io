@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
 
 <link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
-<link rel="stylesheet" href="assets/css/prism.css" type="text/css">
+<link rel="stylesheet" href="assets/css/prism-tomorrow.css" type="text/css">
 
 <script src="assets/js/mustache.min.js"></script>
 <script src="assets/js/jquery.js"></script>
@@ -115,10 +115,10 @@ $('body').removeClass('no-script');
 <p>Clang and llvm-config are runtime dependencies for the C extension.</p>
 <h3 id="commandline-install">Command-line install</h3>
 <p>On Fedora you can install all these dependencies with:</p>
-<pre><code>dnf install python3-devel libxml2-devel libxslt-devel cmake libyaml-devel
+<pre><code>dnf install python3-devel libxml2-devel libxslt-devel cmake libyaml-devel llvm-devel
 </code></pre>
 <p>And on ubuntu / debian:</p>
-<pre><code>apt-get install python3-dev libxml2-dev libxslt1-dev cmake libyaml-dev
+<pre><code>apt-get install python3-dev libxml2-dev libxslt1-dev cmake libyaml-dev llvm-dev
 </code></pre>
 <p>We'll be happy to merge updates to this list if you have successfully built hotdoc on another platform.</p>
 <h2 id="creating-a-virtualenv">Creating a virtualenv</h2>
@@ -176,7 +176,6 @@ python3 -m pip install -e .[dev]
 	<div id="search_results">
 		<p>The results of the search are</p>
 	</div>
-	<hr>
 	<div id="footer">
 		    
         

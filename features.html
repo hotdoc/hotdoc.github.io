@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
 
 <link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
-<link rel="stylesheet" href="assets/css/prism.css" type="text/css">
+<link rel="stylesheet" href="assets/css/prism-tomorrow.css" type="text/css">
 
 <script src="assets/js/mustache.min.js"></script>
 <script src="assets/js/jquery.js"></script>
@@ -106,13 +106,8 @@ $('body').removeClass('no-script');
 <p>Hotdoc is designed as an incremental documentation system. Along with
 its final output, it produces a database of symbols and a dependency
 graph, which can be reused at the next run.</p>
-<p>For example, <a href="https://github.com/hotdoc/hotdoc_server">hotdoc_server</a> uses
-hotdoc to provide (for now basic) wiki-like functionalities: users
-can edit and preview the documentation, and the server patches the sources it was
-extracted from.</p>
-<blockquote>
-<p>See <a href="running.html#disabling-incremental-build">disabling incremental build</a> if you do not wish / need to use this feature.</p>
-</blockquote>
+<p>See <a href="running.html#disabling-incremental-build">disabling incremental build</a>
+if you do not wish / need to use this feature.</p>
 <h2 id="simple-yet-powerful-syntax">Simple yet powerful syntax</h2>
 <p>Hotdoc follows the <a href="http://commonmark.org/">CommonMark</a> specification
 and uses <a href="https://github.com/jgm/cmark">cmark</a> to parse and render
@@ -121,6 +116,7 @@ standalone documentation pages.</p>
 a great amount of control over the resulting layout, and the main
 design requirement behind the choice of the format was to lower as
 much as possible the barrier to contribute to documentation.</p>
+<p>See <a href="syntax-extensions.html">Extensions to the CommonMark syntax</a> for more information.</p>
 <h2 id="themeability">Themeability</h2>
 <p>The hotdoc html formatter supports theming. Its base output has
 no stylesheets or scripts applied to it whatsoever, this is handled by themes,
@@ -138,9 +134,6 @@ documentation-related tasks, ranging from retrieving the raw docstring
 for a given symbol, to showing a live preview during editing of any
 documentation snippet.</li>
 </ul>
-<blockquote>
-<p>See <a href="users.html#hotdocs-own-bootstrapped-documentation">the bootstraped documentation</a> to get a first taste of the API.</p>
-</blockquote>
 
     </div>
         
@@ -153,7 +146,6 @@ documentation snippet.</li>
 	<div id="search_results">
 		<p>The results of the search are</p>
 	</div>
-	<hr>
 	<div id="footer">
 		    
         

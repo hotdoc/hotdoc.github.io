@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "clang", "urls": [{"url": "installing.html#clang-and-llvmconfig", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token": "clang", "urls": [{"url": "installing.html#clang-and-llvmconfig", "context": {"gi-language": ["default"]}}, {"url": "index.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});

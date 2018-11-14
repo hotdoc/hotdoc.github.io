@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "parsing", "urls": [{"url": "syntax-extensions.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token": "parsing", "urls": [{"url": "index.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "syntax-extensions.html#page-description", "context": {"gi-language": ["default"]}}]});
