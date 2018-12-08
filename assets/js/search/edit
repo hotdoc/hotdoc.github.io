@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "edit", "urls": [{"url": "features.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token": "edit", "urls": [{"url": "edit-on-github-extension.html#edit-on-github-extension", "context": {"gi-language": ["default"]}}, {"url": "features.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "the-markdown-pages.html#page-description", "context": {"gi-language": ["default"]}}]});

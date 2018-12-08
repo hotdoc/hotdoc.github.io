@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "information", "urls": [{"url": "features.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "setting-up-a-project.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token": "information", "urls": [{"url": "features.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "setting-up-a-project.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "c-extension.html#page-description", "context": {"gi-language": ["default"]}}]});

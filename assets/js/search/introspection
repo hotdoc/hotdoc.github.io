@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "introspection", "urls": [{"url": "index.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token": "introspection", "urls": [{"url": "gi-extension.html#gobject-introspection-extension", "context": {"gi-language": ["default"]}}, {"url": "index.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "gi-extension.html#page-description", "context": {"gi-language": ["default"]}}]});

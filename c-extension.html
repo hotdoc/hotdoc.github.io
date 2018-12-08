@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<base href=".">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>C</title>
+
+<link rel="stylesheet" href="assets/css/custom_bootstrap.css" type="text/css">
+<link rel="stylesheet" href="assets/css/bootstrap-toc.min.css" type="text/css">
+<link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
+<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+<link rel="stylesheet" href="assets/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
+
+<script src="assets/js/mustache.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/scrollspy.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/typeahead.jquery.min.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/compare-versions.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/bootstrap-toc.min.js"></script>
+<script src="assets/js/jquery.touchSwipe.min.js"></script>
+<script src="assets/js/anchor.min.js"></script>
+<script src="assets/js/tag_filtering.js"></script>
+<script src="assets/js/language_switching.js"></script>
+
+<script src="assets/js/lines_around_headings.js"></script>
+
+<script src="assets/js/prism-core.js"></script>
+<script src="assets/js/prism-autoloader.js"></script>
+<script src="assets/js/prism_autoloader_path_override.js"></script>
+<script src="assets/js/trie.js"></script>
+
+
+</head>
+
+<body class="no-script
+" data-spy="scroll" data-target="#toc" data-offset="70">
+
+<script>
+$('body').removeClass('no-script');
+</script>
+
+<nav class="navbar navbar-fixed-top navbar-default" id="topnav">
+	<div class="container-fluid">
+		<div class="navbar-right">
+			<a id="toc-toggle">
+				<span class="glyphicon glyphicon-menu-right"></span>
+				<span class="glyphicon glyphicon-menu-left"></span>
+			</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<form class="navbar-form pull-right" id="navbar-search-form">
+                               <div class="form-group has-feedback">
+                                       <input type="text" class="form-control input-sm" name="search" id="sidenav-lookup-field" placeholder="search" disabled>
+				       <span class="glyphicon glyphicon-search form-control-feedback" id="search-mgn-glass"></span>
+                               </div>
+                        </form>
+		</div>
+		<div class="navbar-header">
+			<a id="sidenav-toggle">
+				<span class="glyphicon glyphicon-menu-right"></span>
+				<span class="glyphicon glyphicon-menu-left"></span>
+			</a>
+			<a id="home-link" href="index.html" class="hotdoc-navbar-brand">
+				<img src="assets/images/home.svg" alt="Home">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar-wrapper">
+			<ul class="nav navbar-nav" id="menu">
+							</ul>
+			<div class="hidden-xs hidden-sm navbar-text navbar-center">
+							</div>
+		</div>
+	</div>
+</nav>
+
+<main>
+<div data-extension="core" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc-0.X" data-hotdoc-ref="c-extension.html" class="page_container" id="page-wrapper">
+<script src="assets/js/utils.js"></script>
+
+<div class="panel panel-collapse oc-collapsed" id="sidenav" data-hotdoc-role="navigation">
+	<script src="assets/js/navigation.js"></script>
+	<script src="assets/js/sitemap.js"></script>
+</div>
+
+<div id="body">
+	<div id="main">
+				    <div id="page-description" data-hotdoc-role="main">
+        <h1 id="c-extension">C extension</h1>
+<p>The C extension can be used to parse C source files to extract comments and
+symbols.</p>
+<h2 id="dependencies">Dependencies</h2>
+<p>The extension uses <a href="https://clang.llvm.org/">Clang</a> to build and walk an AST from the source code, as
+such it is necessary for the build environment to allow its compilation, and
+arguments are exposed to allow specifying the C flags and / or the names of the
+dependencies that C flags should be obtained from using <a href="https://www.freedesktop.org/wiki/Software/pkg-config/">pkg-config</a>.</p>
+<h2 id="commment-parser">Commment parser</h2>
+<p>Currently, comments are expected to be formatted according to the <a href="https://developer.gnome.org/gtk-doc-manual/stable/documenting_syntax.html.en">gtk-doc syntax</a>.</p>
+<h2 id="arguments">Arguments</h2>
+<p>This extension exposes the following arguments / configuration options:</p>
+<ul>
+<li>
+<p><code>--c-index</code>, <code>c_index</code>: Name of the root markdown file, which can be None. See
+<a href="the-smart-index.html">The smart index</a> for more information.</p>
+</li>
+<li>
+<p><code>--c-include-directories</code>, <code>c_include_directories</code>: List of include directories, equivalent
+to clang's <code>-I</code></p>
+</li>
+<li>
+<p><code>--pkg-config-packages</code>, <code>pkg_config_packages</code>: List of packages the library depends upon</p>
+</li>
+<li>
+<p><code>--extra-c-flags</code>, <code>extra_c_flags</code>: Extra flags to use when compiling, eg <code>-D</code>, <code>-U</code></p>
+</li>
+<li>
+<p><code>--c-index</code>, <code>c_index</code>: Optional path to a markdown file that will be parsed and used
+as the index for the extension in the sitemap. If not specified, an empty page will be
+generated.</p>
+</li>
+<li>
+<p><code>--c-sources</code>, <code>c_sources</code>: List of sources to parse, can contain patterns which
+will be passed through <a href="https://docs.python.org/3/library/glob.html">glob</a></p>
+</li>
+<li>
+<p><code>--c-source-filters</code>, <code>c_source_filters</code>: List of sources to exclude, can contain
+patterns which will be passed through <a href="https://docs.python.org/3/library/glob.html">glob</a>. This is useful when passing patterns
+to <code>c_sources</code></p>
+</li>
+<li>
+<p><code>--c-source-roots</code>, <code>c_source_roots</code>: List of root directories paths should be
+made relative to. This is useful when generated sources are documented, to avoid
+ending up with an unnecessarily deep sitemap.</p>
+</li>
+</ul>
+
+    </div>
+        
+
+
+
+
+		
+	</div>
+	<div id="search_results">
+		<p>The results of the search are</p>
+	</div>
+	<div id="footer">
+		    
+        
+<div class="license-description">
+	<table>
+		<tbody>
+			<tr>
+			<td>
+				<em>All content in this page is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>
+				license, unless otherwise noted.</em>
+			</td>
+			<td>
+						<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+				<img src="assets/CC-BY-SAv4.0.png" class="license-logo" alt="Creative Commons Attribution-ShareAlike 4.0 International">
+			</a>
+						</td>	
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+	</div>
+</div>
+
+<div id="toc-column">
+	
+		<div class="edit-button">
+		<a href="http://github.com/hotdoc/hotdoc//edit/master/documentation/markdown_files/c-extension.markdown" data-hotdoc-role="edit-button">Edit on github</a>
+
+	</div>
+		<div id="toc-wrapper">
+		<nav id="toc"></nav>
+	</div>
+</div>
+</div>
+</main>
+
+
+<script src="assets/js/navbar_offset_scroller.js"></script>
+</body>
+</html>
