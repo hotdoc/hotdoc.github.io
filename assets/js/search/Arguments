@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Arguments", "urls": [{"url": "gi-extension.html#arguments", "context": {"gi-language": ["default"]}}, {"url": "c-extension.html#arguments", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"Arguments","urls":[{"url":"c-extension.html#arguments","node_type":"h2","context":{"gi-language":["default"]}},{"url":"gi-extension.html#arguments","node_type":"h2","context":{"gi-language":["default"]}}]});

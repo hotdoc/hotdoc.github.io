@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Activate", "urls": [{"url": "the-smart-index.html#activate-smart-indexing", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"Activate","urls":[{"url":"the-smart-index.html#activate-smart-indexing","node_type":"h2","context":{"gi-language":["default"]}}]});

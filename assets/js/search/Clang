@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Clang", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "c-extension.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"Clang","urls":[{"url":"c-extension.html#page-description","node_type":"p","context":{"gi-language":["default"]}},{"url":"extensions.html#subpages","node_type":"p","context":{"gi-language":["default"]}},{"url":"installing.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});

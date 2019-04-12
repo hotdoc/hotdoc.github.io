@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "projects", "urls": [{"url": "setting-up-a-project.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"projects","urls":[{"url":"index.html#subpages","node_type":"p","context":{"gi-language":["default"]}},{"url":"setting-up-a-project.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});

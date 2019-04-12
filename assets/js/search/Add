@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Add", "urls": [{"url": "the-markdown-pages.html#add-symbols-to-pages", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"Add","urls":[{"url":"extensions.html#subpages","node_type":"p","context":{"gi-language":["default"]}},{"url":"the-markdown-pages.html#add-symbols-to-pages","node_type":"h3","context":{"gi-language":["default"]}}]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "link", "urls": [{"url": "syntax-extensions.html#link-syntax", "context": {"gi-language": ["default"]}}, {"url": "syntax-extensions.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"link","urls":[{"url":"syntax-extensions.html#link-syntax","node_type":"h2","context":{"gi-language":["default"]}},{"url":"syntax-extensions.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "bootstrapped", "urls": [{"url": "users.html#hotdocs-own-bootstrapped-documentation", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"bootstrapped","urls":[{"url":"users.html#hotdocs-own-bootstrapped-documentation","node_type":"h2","context":{"gi-language":["default"]}}]});

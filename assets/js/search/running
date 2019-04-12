@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "running", "urls": [{"url": "running.html#running", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"running","urls":[{"url":"index.html#subpages","node_type":"p","context":{"gi-language":["default"]}},{"url":"running.html#running","node_type":"h1","context":{"gi-language":["default"]}}]});

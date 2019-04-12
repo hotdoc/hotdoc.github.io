@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Assuming", "urls": [{"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "cleaning.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"Assuming","urls":[{"url":"cleaning.html#page-description","node_type":"p","context":{"gi-language":["default"]}},{"url":"installing.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});

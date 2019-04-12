@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "License", "urls": [{"url": "license-extension.html#license-extension", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"License","urls":[{"url":"extensions.html#subpages","node_type":"p","context":{"gi-language":["default"]}},{"url":"license-extension.html#license-extension","node_type":"h1","context":{"gi-language":["default"]}}]});

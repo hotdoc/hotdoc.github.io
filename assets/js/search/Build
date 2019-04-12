@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Build", "urls": [{"url": "installing.html#build-options", "context": {"gi-language": ["default"]}}, {"url": "installing.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"Build","urls":[{"url":"installing.html#build-options","node_type":"h3","context":{"gi-language":["default"]}},{"url":"installing.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});

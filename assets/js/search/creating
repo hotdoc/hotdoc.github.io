@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "creating", "urls": [{"url": "the-configuration-file.html#creating-from-a-command-line-invocation", "context": {"gi-language": ["default"]}}, {"url": "installing.html#creating-a-virtualenv", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"creating","urls":[{"url":"installing.html#creating-a-virtualenv","node_type":"h2","context":{"gi-language":["default"]}},{"url":"the-configuration-file.html#creating-from-a-command-line-invocation","node_type":"h2","context":{"gi-language":["default"]}}]});

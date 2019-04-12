@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "hotdoc.json", "urls": [{"url": "the-configuration-file.html#page-description", "context": {"gi-language": ["default"]}}, {"url": "running.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"hotdoc.json","urls":[{"url":"running.html#page-description","node_type":"p","context":{"gi-language":["default"]}},{"url":"the-configuration-file.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});

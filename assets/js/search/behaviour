@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "behaviour", "urls": [{"url": "the-smart-index.html#override-default-indexing-behaviour", "context": {"gi-language": ["default"]}}, {"url": "the-smart-index.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"behaviour","urls":[{"url":"the-smart-index.html#override-default-indexing-behaviour","node_type":"h3","context":{"gi-language":["default"]}},{"url":"the-smart-index.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Syntax", "urls": [{"url": "syntax-highlighting-extension.html#syntax-highlighting-extension", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"Syntax","urls":[{"url":"extensions.html#subpages","node_type":"p","context":{"gi-language":["default"]}},{"url":"syntax-highlighting-extension.html#syntax-highlighting-extension","node_type":"h1","context":{"gi-language":["default"]}}]});

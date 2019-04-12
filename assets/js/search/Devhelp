@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "Devhelp", "urls": [{"url": "devhelp-extension.html#devhelp-extension", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"Devhelp","urls":[{"url":"devhelp-extension.html#devhelp-extension","node_type":"h1","context":{"gi-language":["default"]}},{"url":"extensions.html#subpages","node_type":"p","context":{"gi-language":["default"]}}]});

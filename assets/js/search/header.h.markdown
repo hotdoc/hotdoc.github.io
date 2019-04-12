@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token": "header.h.markdown", "urls": [{"url": "the-smart-index.html#page-description", "context": {"gi-language": ["default"]}}]});
+urls_downloaded_cb({"token":"header.h.markdown","urls":[{"url":"the-smart-index.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});
