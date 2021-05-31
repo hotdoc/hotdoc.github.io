@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"features.html#incremental","fragment":"Incremental\n"});
+fragment_downloaded_cb({"url":"features.html#incremental","fragment":"Incremental\nHotdoc is designed as an incremental documentation system. Along with\nits final output, it produces a database of symbols and a dependency\ngraph, which can be reused at the next run.\nSee disabling incremental build\nif you do not wish / need to use this feature.\n"});

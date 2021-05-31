@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"installing.html#glib-and-jsonglib","fragment":"glib and json-glib\n"});
+fragment_downloaded_cb({"url":"installing.html#glib-and-jsonglib","fragment":"glib and json-glib\nThe search extension is implemented in C, and index creation depends on glib and json-glib.\n"});

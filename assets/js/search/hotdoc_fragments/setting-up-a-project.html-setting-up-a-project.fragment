@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"setting-up-a-project.html#setting-up-a-project","fragment":"Setting up a project\n"});
+fragment_downloaded_cb({"url":"setting-up-a-project.html#setting-up-a-project","fragment":"Setting up a project\nHotdoc can accept options both from the command line and from a json\nconfiguration file. The command line options will take precedence over\ntheir json counterpart.\nTo see a list of all options available (including extension's options), run:\n"});

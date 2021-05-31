@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"c-extension.html#dependencies","fragment":"Dependencies\n"});
+fragment_downloaded_cb({"url":"c-extension.html#dependencies","fragment":"Dependencies\nThe extension uses Clang to build and walk an AST from the source code, as\nsuch it is necessary for the build environment to allow its compilation, and\narguments are exposed to allow specifying the C flags and / or the names of the\ndependencies that C flags should be obtained from using pkg-config.\nOn a Debian-based OS you will need to install llvm and libclang-dev packages.\n"});

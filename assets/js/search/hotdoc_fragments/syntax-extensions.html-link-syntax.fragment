@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"syntax-extensions.html#link-syntax","fragment":"Link syntax\n"});
+fragment_downloaded_cb({"url":"syntax-extensions.html#link-syntax","fragment":"Link syntax\nThe syntax for a \"classic link\" in markdown is:\nHotdoc will make some additional checks on the link destination, and handle the\nfollowing cases:\n"});

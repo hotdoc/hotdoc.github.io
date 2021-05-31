@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"features.html#themeability","fragment":"Themeability\n"});
+fragment_downloaded_cb({"url":"features.html#themeability","fragment":"Themeability\nThe hotdoc html formatter supports theming. Its base output has\nno stylesheets or scripts applied to it whatsoever, this is handled by themes,\nwhich can additionally override the base templates. By default, hotdoc will use\na theme based on bootstrap and isotope, see\nhttps://github.com/hotdoc/hotdoc_bootstrap_theme\nfor its sources.\n"});

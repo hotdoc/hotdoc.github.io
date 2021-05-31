@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"index.html#hotdoc-documentation","fragment":"HotDoc documentation\n"});
+fragment_downloaded_cb({"url":"index.html#hotdoc-documentation","fragment":"HotDoc documentation\nHotdoc is a documentation framework. It provides an interface for\nextensions to plug upon, along with some base objects (formatters, ...)\nHotdoc is distributed with a set of extensions that perform various tasks,\nsuch as parsing C and extracting symbols with clang, parsing\ngobject-introspection (gir) files, highlighting the syntax of code snippets\nwith prism, etc.\n"});

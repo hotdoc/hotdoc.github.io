@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"the-smart-index.html#the-smart-index","fragment":"The smart index\n"});
+fragment_downloaded_cb({"url":"the-smart-index.html#the-smart-index","fragment":"The smart index\nHotdoc allows its extension to build documentation pages and their\ncontent automatically. On top of that users can override extension\ndecision about what symbols should be added to what page and in what\norder, the combination of those two possibilities is what we call\nsmart indexing.\n"});

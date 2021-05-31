@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token":"destination","urls":[{"url":"syntax-extensions.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});
+urls_downloaded_cb({"token":"destination","urls":[{"url":"syntax-extensions.html#link-syntax","node_type":"p","context":{"gi-language":["default"]}},{"url":"syntax-extensions.html#referencing-a-symbol","node_type":"p","context":{"gi-language":["default"]}},{"url":"syntax-extensions.html#referencing-another-page","node_type":"p","context":{"gi-language":["default"]}}]});

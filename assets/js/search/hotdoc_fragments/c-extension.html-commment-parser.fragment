@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"c-extension.html#commment-parser","fragment":"Commment parser\n"});
+fragment_downloaded_cb({"url":"c-extension.html#commment-parser","fragment":"Commment parser\nCurrently, comments are expected to be formatted according to the gtk-doc syntax.\n"});

@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"the-smart-index.html#activate-smart-indexing","fragment":"Activate smart indexing\n"});
+fragment_downloaded_cb({"url":"the-smart-index.html#activate-smart-indexing","fragment":"Activate smart indexing\nSmart indexing is made by a specific extension, for example if you are\ndocumenting a C library you should use the --c-smart-index option so\nthat the C extension takes control and build the index for its section.\nBasically, during smart indexing of C code, the extension will build one\noutput page per header ('.h') file.\n"});

@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token":"discover","urls":[{"url":"extensions.html#subpages","node_type":"p","context":{"gi-language":["default"]}},{"url":"gi-extension.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});
+urls_downloaded_cb({"token":"discover","urls":[{"url":"extensions.html#subpages","node_type":"p","context":{"gi-language":["default"]}},{"url":"gi-extension.html#gobject-introspection-extension","node_type":"p","context":{"gi-language":["default"]}}]});

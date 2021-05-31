@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"users.html#wip-gnome-developer-portal","fragment":"WIP GNOME developer portal\n"});
+fragment_downloaded_cb({"url":"users.html#wip-gnome-developer-portal","fragment":"WIP GNOME developer portal\nSome initial work has been done to port over the GNOME developer portal, with WIP ports of GLib and GStreamer nested as subprojects, see here for a snapshot.\n"});

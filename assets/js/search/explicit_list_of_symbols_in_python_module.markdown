@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token":"explicit_list_of_symbols_in_python_module.markdown","urls":[{"url":"the-markdown-pages.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});
+urls_downloaded_cb({"token":"explicit_list_of_symbols_in_python_module.markdown","urls":[{"url":"the-markdown-pages.html#add-symbols-to-pages","node_type":"p","context":{"gi-language":["default"]}}]});

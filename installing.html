@@ -15,17 +15,17 @@
 <link rel="stylesheet" href="assets/css/bootstrap-toc.min.css" type="text/css">
 <link rel="stylesheet" href="assets/css/frontend.css" type="text/css">
 <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" href="assets/js/search/enable_search.css" type="text/css">
 
 <link rel="stylesheet" href="assets/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="assets/css/devhelp.css" type="text/css">
 
 <script src="assets/js/mustache.min.js"></script>
 <script src="assets/js/jquery.js"></script>
-<script src="assets/js/scrollspy.js"></script>
 <script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/scrollspy.js"></script>
 <script src="assets/js/typeahead.jquery.min.js"></script>
 <script src="assets/js/search.js"></script>
-<script src="assets/js/isotope.pkgd.min.js"></script>
 <script src="assets/js/compare-versions.js"></script>
 <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="assets/js/bootstrap-toc.min.js"></script>
@@ -45,7 +45,7 @@
 </head>
 
 <body class="no-script
-" data-spy="scroll" data-target="#toc" data-offset="70">
+">
 
 <script>
 $('body').removeClass('no-script');
@@ -90,7 +90,7 @@ $('body').removeClass('no-script');
 </nav>
 
 <main>
-<div data-extension="core" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc-0.X" data-hotdoc-ref="installing.html" class="page_container" id="page-wrapper">
+<div data-extension="core" data-hotdoc-in-toplevel="True" data-hotdoc-project="hotdoc" data-hotdoc-ref="installing.html" class="page_container" id="page-wrapper">
 <script src="assets/js/utils.js"></script>
 
 <div class="panel panel-collapse oc-collapsed" id="sidenav" data-hotdoc-role="navigation">
@@ -135,6 +135,12 @@ python3 -m venv hotdoc_env
 </code></pre>
 <p>You are now in a virtual environment, to exit it you may call <code>deactivate</code>, to enter it again simply call <code>. hotdoc_env/bin/activate</code> from the directory in which the environment was created.</p>
 <h2 id="hotdoc-itself">Hotdoc itself</h2>
+<h3 id="python-dependencies">Python dependencies</h3>
+<p>In order to use the exact versions of all dependencies hotdoc is known to work against:</p>
+<pre><code>git clone https://github.com/hotdoc/hotdoc.git
+cd hotdoc
+pip install -r requirements.txt
+</code></pre>
 <h3 id="build-options">Build options</h3>
 <p>To ensure that extensions with optional dependencies are enabled when installing hotdoc, the setup script will look at the following environment variables:</p>
 <ul>
@@ -206,7 +212,7 @@ python3 -m pip install -e .[dev]
 <div id="toc-column">
 	
 		<div class="edit-button">
-		<a href="http://github.com/hotdoc/hotdoc//edit/master/documentation/markdown_files/installing.markdown" data-hotdoc-role="edit-button">Edit on github</a>
+		<a href="http://github.com/hotdoc/hotdoc//edit/master/documentation/markdown_files/installing.markdown" data-hotdoc-role="edit-button">Edit on GitHub</a>
 
 	</div>
 		<div id="toc-wrapper">

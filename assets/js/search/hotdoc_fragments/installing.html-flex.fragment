@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"installing.html#flex","fragment":"flex\n"});
+fragment_downloaded_cb({"url":"installing.html#flex","fragment":"flex\nflex is an optional dependency, which enables the C and GI extensions. See Build options for more info.\n"});

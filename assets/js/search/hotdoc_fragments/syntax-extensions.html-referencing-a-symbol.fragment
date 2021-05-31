@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"syntax-extensions.html#referencing-a-symbol","fragment":"Referencing a symbol\n"});
+fragment_downloaded_cb({"url":"syntax-extensions.html#referencing-a-symbol","fragment":"Referencing a symbol\nIf my_symbol_name is recognized as a valid symbol, then at format time the\ndestination will be modified to point to the url of this symbol's\ndocumentation.\nThe label can be empty, in which case it will be set to the name of the\nsymbol at format time\n"});

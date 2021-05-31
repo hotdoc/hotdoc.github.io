@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"installing.html#build-options","fragment":"Build options\n"});
+fragment_downloaded_cb({"url":"installing.html#build-options","fragment":"Build options\nTo ensure that extensions with optional dependencies are enabled when installing hotdoc, the setup script will look at the following environment variables:\nThis awkward way of passing options is due to setuptools' limitations.\n\n\nHOTDOC_BUILD_C_EXTENSION: one of enabled, disabled or auto. Default is auto\n\n\n"});

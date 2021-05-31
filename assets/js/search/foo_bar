@@ -1,1 +1,1 @@
-urls_downloaded_cb({"token":"foo_bar","urls":[{"url":"syntax-extensions.html#page-description","node_type":"p","context":{"gi-language":["default"]}}]});
+urls_downloaded_cb({"token":"foo_bar","urls":[{"url":"syntax-extensions.html#smart-file-inclusion-syntax","node_type":"p","context":{"gi-language":["default"]}}]});

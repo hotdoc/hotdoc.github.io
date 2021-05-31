@@ -1,1 +1,1 @@
-fragment_downloaded_cb({"url":"features.html#api","fragment":"API\n"});
+fragment_downloaded_cb({"url":"features.html#api","fragment":"API\nHotdoc 1.0 will expose a (reasonably) stable API, its intended users being:\n\nExtension writers, which will find the task of documenting a new language\nmuch easier than writing a tool from scratch.\nApplication writers, which will be able to use it for all sorts of\ndocumentation-related tasks, ranging from retrieving the raw docstring\nfor a given symbol, to showing a live preview during editing of any\ndocumentation snippet.\n\n"});
