@@ -94,8 +94,10 @@ $('body').removeClass('no-script');
 <script src="assets/js/utils.js"></script>
 
 <div class="panel panel-collapse oc-collapsed" id="sidenav" data-hotdoc-role="navigation">
-	<script src="assets/js/navigation.js"></script>
-	<script src="assets/js/sitemap.js"></script>
+	<script src="assets/js/full-width.js"></script>
+  <div id="sitenav-wrapper">
+    <iframe src="hotdoc-sitemap.html" id="sitenav-frame"></iframe>
+  </div>
 </div>
 
 <div id="body">
@@ -302,7 +304,50 @@ just to prove our point.</p>
 </blockquote>
 <h3 id="advanced-layout">Advanced layout</h3>
 <p>The two approaches listed above can be mixed, this will soon<sup>(tm)</sup> be documented.</p>
-
+<h3 id="supported-yaml-metadata">Supported YAML metadata</h3>
+<p>The following table lists some available options that can be specified in the
+metadata YAML header.</p>
+<table>
+<thead>
+<tr>
+<th> Key</th>
+<th> Type</th>
+<th> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> title</td>
+<td> <code>str</code>
+</td>
+<td> Use this title instead of the the first heading</td>
+</tr>
+<tr>
+<td> short-description</td>
+<td> <code>str</code>
+</td>
+<td> A short description that is used when referencing this page in <code>Subpages:</code> sections</td>
+</tr>
+<tr>
+<td> render-subpages</td>
+<td> <code>bool</code>
+</td>
+<td> Put the <code>Subpages:</code> sections at the end of a page that has subpages (default is <code>true</code>)</td>
+</tr>
+<tr>
+<td> full-width</td>
+<td> <code>bool</code>
+</td>
+<td> Render the page over the full width without the sidebar</td>
+</tr>
+<tr>
+<td> redirect</td>
+<td> <code>str</code>
+</td>
+<td> Redirect to a different page</td>
+</tr>
+</tbody>
+</table>
     </div>
         
 

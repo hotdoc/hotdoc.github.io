@@ -1,0 +1,1 @@
+fragment_downloaded_cb({"url":"custom-extensions.html#creating-custom-extensions","fragment":"Creating custom extensions\nAll hotdoc extensions must extend the Extension class and provide a\nget_extension_classes function.\nMinimal example extension:\n"});

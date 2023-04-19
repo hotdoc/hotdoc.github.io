@@ -1,0 +1,56 @@
+@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+.sidenav-panel-body,
+.sidenav-main-panel-body {
+  padding: 15px;
+}
+body {
+  background-color: #3A3F44;
+  height: 100vh;
+}
+.sidenav-panel-body,
+.sidenav-main-panel-body {
+  padding: 0px;
+  padding-left: 5px;
+}
+.sidenav-panel-body span {
+  cursor: pointer;
+  height: 100%;
+}
+.sidenav-main-panel-body {
+  padding: 0px;
+}
+.sidenav-panel-odd {
+  background-color: #3A3F44;
+}
+.sidenav-panel-even {
+  background-color: #2a2d31;
+}
+.sidenav-panel-current > .panel-heading,
+.sidenav-panel-current > span > .panel-heading {
+  border-left: 3px solid #62c462;
+}
+.sidenav-panel-current > .panel-heading > .panel-title,
+.sidenav-panel-current > span > .panel-heading > .panel-title {
+  color: #62c462;
+}
+span[aria-expanded=true] .glyphicon-chevron-right {
+  display: none;
+}
+span[aria-expanded=false] .glyphicon-chevron-down {
+  display: none;
+}
