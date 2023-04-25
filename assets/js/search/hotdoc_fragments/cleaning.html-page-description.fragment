@@ -1,1 +1,0 @@
-fragment_downloaded_cb({"url":"cleaning.html#page-description","fragment":"Instructions for cleaning a hotdoc project.\nHotdoc generates its output in the specified directory and a a folder named\nhotdoc-private[hash] in the folder it's run from.\nAssuming the output directory is built_doc, a clean command would be:\n"});
